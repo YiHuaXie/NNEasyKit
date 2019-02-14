@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "NeroXie" => "xyh30902@163.com" }
   s.platform     = :ios, '8.0'
-  s.source       = { :git => "git@github.com:YiHuaXie/NNEasyKit.git", :tag => "#{s.version}" }
+  s.source       = { :git => "git@github.com:YiHuaXie/NNEasyKit.git", :tag => s.version }
   s.frameworks 	 = 'Foundation', 'UIKit'
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
