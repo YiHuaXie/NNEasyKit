@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NNEasyKit"
-  s.version      = "0.0.1.2"
+  s.version      = "0.0.1.3"
   s.summary      = "快速开发OC项目的框架"
   s.description  = <<-DESC
   		   一个快速开发OC项目的框架，包括Extension、Network、Components
@@ -26,6 +26,10 @@ Pod::Spec.new do |s|
   
   s.subspec 'NNExtension' do |ss|
     ss.source_files = 'NNEasyKit/NNEasyKit/NNExtension/*.{h,m}'
+  end
+
+  s.subspec 'NNComponent' do |ss|
+    ss.source_files = 'NNEasyKit/NNEasyKit/NNComponent'
   end
 
 end
