@@ -15,25 +15,25 @@
 		AEBDB558221548A500241E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB557221548A500241E6C /* main.m */; };
 		AEBDB562221548A500241E6C /* NNEasyKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB561221548A500241E6C /* NNEasyKitTests.m */; };
 		AEBDB56D221548A500241E6C /* NNEasyKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB56C221548A500241E6C /* NNEasyKitUITests.m */; };
-		AEBDB5A9221548B500241E6C /* NNGlobalHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB57C221548B500241E6C /* NNGlobalHelper.m */; };
-		AEBDB5AA221548B500241E6C /* NSObject+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB57E221548B500241E6C /* NSObject+NNExtension.m */; };
-		AEBDB5AB221548B500241E6C /* UIFont+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB57F221548B500241E6C /* UIFont+NNExtension.m */; };
-		AEBDB5AC221548B500241E6C /* UIView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB581221548B500241E6C /* UIView+NNExtension.m */; };
-		AEBDB5AD221548B500241E6C /* NSString+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB585221548B500241E6C /* NSString+NNExtension.m */; };
-		AEBDB5AE221548B500241E6C /* UICollectionView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB587221548B500241E6C /* UICollectionView+NNExtension.m */; };
-		AEBDB5AF221548B500241E6C /* UIGestureRecognizer+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB58A221548B500241E6C /* UIGestureRecognizer+NNExtension.m */; };
-		AEBDB5B0221548B500241E6C /* UIImage+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB58F221548B500241E6C /* UIImage+NNExtension.m */; };
-		AEBDB5B1221548B500241E6C /* NSTimer+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB590221548B500241E6C /* NSTimer+NNExtension.m */; };
-		AEBDB5B2221548B500241E6C /* UIColor+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB591221548B500241E6C /* UIColor+NNExtension.m */; };
-		AEBDB5B3221548B500241E6C /* UITableView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB592221548B500241E6C /* UITableView+NNExtension.m */; };
-		AEBDB5B4221548B500241E6C /* UIAlertController+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB593221548B500241E6C /* UIAlertController+NNExtension.m */; };
-		AEBDB5B5221548B500241E6C /* UIControl+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB595221548B500241E6C /* UIControl+NNExtension.m */; };
-		AEBDB5B6221548B500241E6C /* NNPFSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB59A221548B500241E6C /* NNPFSLabel.m */; };
-		AEBDB5B7221548B500241E6C /* CADisplayLink+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB59B221548B500241E6C /* CADisplayLink+NNExtension.m */; };
-		AEBDB5B8221548B500241E6C /* NNGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB59E221548B500241E6C /* NNGCDTimer.m */; };
-		AEBDB5B9221548B500241E6C /* NNPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB5A2221548B500241E6C /* NNPinYin.m */; };
-		AEBDB5BA221548B500241E6C /* NNNormalAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB5A4221548B500241E6C /* NNNormalAlertView.m */; };
-		AEBDB5BB221548B500241E6C /* NNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB5A7221548B500241E6C /* NNAlertView.m */; };
+		AEBDB67522155E9200241E6C /* NNPFSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB64A22155E9200241E6C /* NNPFSLabel.m */; };
+		AEBDB67622155E9200241E6C /* CADisplayLink+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB64B22155E9200241E6C /* CADisplayLink+NNExtension.m */; };
+		AEBDB67722155E9200241E6C /* NNGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB64E22155E9200241E6C /* NNGCDTimer.m */; };
+		AEBDB67822155E9200241E6C /* NNPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65222155E9200241E6C /* NNPinYin.m */; };
+		AEBDB67922155E9200241E6C /* NNNormalAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65422155E9200241E6C /* NNNormalAlertView.m */; };
+		AEBDB67A22155E9200241E6C /* NNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65722155E9200241E6C /* NNAlertView.m */; };
+		AEBDB67B22155E9200241E6C /* NNGlobalHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65922155E9200241E6C /* NNGlobalHelper.m */; };
+		AEBDB67C22155E9200241E6C /* NSObject+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65B22155E9200241E6C /* NSObject+NNExtension.m */; };
+		AEBDB67D22155E9200241E6C /* UIFont+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65C22155E9200241E6C /* UIFont+NNExtension.m */; };
+		AEBDB67E22155E9200241E6C /* UIView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65E22155E9200241E6C /* UIView+NNExtension.m */; };
+		AEBDB67F22155E9200241E6C /* NSString+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66222155E9200241E6C /* NSString+NNExtension.m */; };
+		AEBDB68022155E9200241E6C /* UICollectionView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66422155E9200241E6C /* UICollectionView+NNExtension.m */; };
+		AEBDB68122155E9200241E6C /* UIGestureRecognizer+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66722155E9200241E6C /* UIGestureRecognizer+NNExtension.m */; };
+		AEBDB68222155E9200241E6C /* UIImage+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66C22155E9200241E6C /* UIImage+NNExtension.m */; };
+		AEBDB68322155E9200241E6C /* NSTimer+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66D22155E9200241E6C /* NSTimer+NNExtension.m */; };
+		AEBDB68422155E9200241E6C /* UIColor+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66E22155E9200241E6C /* UIColor+NNExtension.m */; };
+		AEBDB68522155E9200241E6C /* UITableView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66F22155E9200241E6C /* UITableView+NNExtension.m */; };
+		AEBDB68622155E9200241E6C /* UIAlertController+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB67022155E9200241E6C /* UIAlertController+NNExtension.m */; };
+		AEBDB68722155E9200241E6C /* UIControl+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB67222155E9200241E6C /* UIControl+NNExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,46 +70,46 @@
 		AEBDB568221548A500241E6C /* NNEasyKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNEasyKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBDB56C221548A500241E6C /* NNEasyKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNEasyKitUITests.m; sourceTree = "<group>"; };
 		AEBDB56E221548A500241E6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEBDB57C221548B500241E6C /* NNGlobalHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGlobalHelper.m; sourceTree = "<group>"; };
-		AEBDB57D221548B500241E6C /* UIGestureRecognizer+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB57E221548B500241E6C /* NSObject+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB57F221548B500241E6C /* UIFont+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB580221548B500241E6C /* NNDefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDefineMacro.h; sourceTree = "<group>"; };
-		AEBDB581221548B500241E6C /* UIView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB582221548B500241E6C /* UIColor+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB583221548B500241E6C /* NSTimer+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB584221548B500241E6C /* UIImage+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB585221548B500241E6C /* NSString+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB586221548B500241E6C /* UIControl+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB587221548B500241E6C /* UICollectionView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB588221548B500241E6C /* UIAlertController+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB589221548B500241E6C /* UITableView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB58A221548B500241E6C /* UIGestureRecognizer+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB58B221548B500241E6C /* NNGlobalHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGlobalHelper.h; sourceTree = "<group>"; };
-		AEBDB58C221548B500241E6C /* UIView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB58D221548B500241E6C /* NSObject+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB58E221548B500241E6C /* UIFont+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB58F221548B500241E6C /* UIImage+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB590221548B500241E6C /* NSTimer+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB591221548B500241E6C /* UIColor+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB592221548B500241E6C /* UITableView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB593221548B500241E6C /* UIAlertController+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB594221548B500241E6C /* UICollectionView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB595221548B500241E6C /* UIControl+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB596221548B500241E6C /* NSString+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB599221548B500241E6C /* CADisplayLink+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB59A221548B500241E6C /* NNPFSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPFSLabel.m; sourceTree = "<group>"; };
-		AEBDB59B221548B500241E6C /* CADisplayLink+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB59C221548B500241E6C /* NNPFSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPFSLabel.h; sourceTree = "<group>"; };
-		AEBDB59E221548B500241E6C /* NNGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGCDTimer.m; sourceTree = "<group>"; };
-		AEBDB59F221548B500241E6C /* NNGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGCDTimer.h; sourceTree = "<group>"; };
-		AEBDB5A1221548B500241E6C /* NNPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPinYin.h; sourceTree = "<group>"; };
-		AEBDB5A2221548B500241E6C /* NNPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPinYin.m; sourceTree = "<group>"; };
-		AEBDB5A4221548B500241E6C /* NNNormalAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNormalAlertView.m; sourceTree = "<group>"; };
-		AEBDB5A5221548B500241E6C /* NNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNAlertView.h; sourceTree = "<group>"; };
-		AEBDB5A6221548B500241E6C /* NNNormalAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNormalAlertView.h; sourceTree = "<group>"; };
-		AEBDB5A7221548B500241E6C /* NNAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNAlertView.m; sourceTree = "<group>"; };
-		AEBDB5A8221548B500241E6C /* NNEasyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNEasyKit.h; sourceTree = "<group>"; };
+		AEBDB64922155E9200241E6C /* CADisplayLink+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB64A22155E9200241E6C /* NNPFSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPFSLabel.m; sourceTree = "<group>"; };
+		AEBDB64B22155E9200241E6C /* CADisplayLink+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB64C22155E9200241E6C /* NNPFSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPFSLabel.h; sourceTree = "<group>"; };
+		AEBDB64E22155E9200241E6C /* NNGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGCDTimer.m; sourceTree = "<group>"; };
+		AEBDB64F22155E9200241E6C /* NNGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGCDTimer.h; sourceTree = "<group>"; };
+		AEBDB65122155E9200241E6C /* NNPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPinYin.h; sourceTree = "<group>"; };
+		AEBDB65222155E9200241E6C /* NNPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPinYin.m; sourceTree = "<group>"; };
+		AEBDB65422155E9200241E6C /* NNNormalAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNormalAlertView.m; sourceTree = "<group>"; };
+		AEBDB65522155E9200241E6C /* NNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNAlertView.h; sourceTree = "<group>"; };
+		AEBDB65622155E9200241E6C /* NNNormalAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNormalAlertView.h; sourceTree = "<group>"; };
+		AEBDB65722155E9200241E6C /* NNAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNAlertView.m; sourceTree = "<group>"; };
+		AEBDB65922155E9200241E6C /* NNGlobalHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGlobalHelper.m; sourceTree = "<group>"; };
+		AEBDB65A22155E9200241E6C /* UIGestureRecognizer+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB65B22155E9200241E6C /* NSObject+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB65C22155E9200241E6C /* UIFont+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB65D22155E9200241E6C /* NNDefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDefineMacro.h; sourceTree = "<group>"; };
+		AEBDB65E22155E9200241E6C /* UIView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB65F22155E9200241E6C /* UIColor+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB66022155E9200241E6C /* NSTimer+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB66122155E9200241E6C /* UIImage+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB66222155E9200241E6C /* NSString+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB66322155E9200241E6C /* UIControl+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB66422155E9200241E6C /* UICollectionView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB66522155E9200241E6C /* UIAlertController+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB66622155E9200241E6C /* UITableView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB66722155E9200241E6C /* UIGestureRecognizer+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB66822155E9200241E6C /* NNGlobalHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGlobalHelper.h; sourceTree = "<group>"; };
+		AEBDB66922155E9200241E6C /* UIView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB66A22155E9200241E6C /* NSObject+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB66B22155E9200241E6C /* UIFont+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB66C22155E9200241E6C /* UIImage+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB66D22155E9200241E6C /* NSTimer+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB66E22155E9200241E6C /* UIColor+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB66F22155E9200241E6C /* UITableView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB67022155E9200241E6C /* UIAlertController+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB67122155E9200241E6C /* UICollectionView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB67222155E9200241E6C /* UIControl+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+NNExtension.m"; sourceTree = "<group>"; };
+		AEBDB67322155E9200241E6C /* NSString+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NNExtension.h"; sourceTree = "<group>"; };
+		AEBDB67422155E9200241E6C /* NNEasyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNEasyKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -160,7 +160,7 @@
 		AEBDB547221548A400241E6C /* NNEasyKit */ = {
 			isa = PBXGroup;
 			children = (
-				AEBDB57A221548B500241E6C /* NNEasyKit */,
+				AEBDB64622155E9200241E6C /* NNEasyKit */,
 				AEBDB548221548A400241E6C /* AppDelegate.h */,
 				AEBDB549221548A400241E6C /* AppDelegate.m */,
 				AEBDB54B221548A400241E6C /* ViewController.h */,
@@ -192,99 +192,99 @@
 			path = NNEasyKitUITests;
 			sourceTree = "<group>";
 		};
-		AEBDB57A221548B500241E6C /* NNEasyKit */ = {
+		AEBDB64622155E9200241E6C /* NNEasyKit */ = {
 			isa = PBXGroup;
 			children = (
-				AEBDB57B221548B500241E6C /* NNExtension */,
-				AEBDB597221548B500241E6C /* NNComponent */,
-				AEBDB5A8221548B500241E6C /* NNEasyKit.h */,
+				AEBDB64722155E9200241E6C /* NNComponent */,
+				AEBDB67422155E9200241E6C /* NNEasyKit.h */,
+				AEBDB65822155E9200241E6C /* NNExtension */,
 			);
 			path = NNEasyKit;
 			sourceTree = "<group>";
 		};
-		AEBDB57B221548B500241E6C /* NNExtension */ = {
+		AEBDB64722155E9200241E6C /* NNComponent */ = {
 			isa = PBXGroup;
 			children = (
-				AEBDB580221548B500241E6C /* NNDefineMacro.h */,
-				AEBDB58B221548B500241E6C /* NNGlobalHelper.h */,
-				AEBDB57C221548B500241E6C /* NNGlobalHelper.m */,
-				AEBDB58D221548B500241E6C /* NSObject+NNExtension.h */,
-				AEBDB57E221548B500241E6C /* NSObject+NNExtension.m */,
-				AEBDB596221548B500241E6C /* NSString+NNExtension.h */,
-				AEBDB585221548B500241E6C /* NSString+NNExtension.m */,
-				AEBDB583221548B500241E6C /* NSTimer+NNExtension.h */,
-				AEBDB590221548B500241E6C /* NSTimer+NNExtension.m */,
-				AEBDB588221548B500241E6C /* UIAlertController+NNExtension.h */,
-				AEBDB593221548B500241E6C /* UIAlertController+NNExtension.m */,
-				AEBDB594221548B500241E6C /* UICollectionView+NNExtension.h */,
-				AEBDB587221548B500241E6C /* UICollectionView+NNExtension.m */,
-				AEBDB582221548B500241E6C /* UIColor+NNExtension.h */,
-				AEBDB591221548B500241E6C /* UIColor+NNExtension.m */,
-				AEBDB586221548B500241E6C /* UIControl+NNExtension.h */,
-				AEBDB595221548B500241E6C /* UIControl+NNExtension.m */,
-				AEBDB58E221548B500241E6C /* UIFont+NNExtension.h */,
-				AEBDB57F221548B500241E6C /* UIFont+NNExtension.m */,
-				AEBDB57D221548B500241E6C /* UIGestureRecognizer+NNExtension.h */,
-				AEBDB58A221548B500241E6C /* UIGestureRecognizer+NNExtension.m */,
-				AEBDB584221548B500241E6C /* UIImage+NNExtension.h */,
-				AEBDB58F221548B500241E6C /* UIImage+NNExtension.m */,
-				AEBDB589221548B500241E6C /* UITableView+NNExtension.h */,
-				AEBDB592221548B500241E6C /* UITableView+NNExtension.m */,
-				AEBDB58C221548B500241E6C /* UIView+NNExtension.h */,
-				AEBDB581221548B500241E6C /* UIView+NNExtension.m */,
-			);
-			path = NNExtension;
-			sourceTree = "<group>";
-		};
-		AEBDB597221548B500241E6C /* NNComponent */ = {
-			isa = PBXGroup;
-			children = (
-				AEBDB5A3221548B500241E6C /* NNAlertView */,
-				AEBDB59D221548B500241E6C /* NNGCDTimer */,
-				AEBDB598221548B500241E6C /* NNPFSLabel */,
-				AEBDB5A0221548B500241E6C /* NNPinYin */,
+				AEBDB65322155E9200241E6C /* NNAlertView */,
+				AEBDB64D22155E9200241E6C /* NNGCDTimer */,
+				AEBDB64822155E9200241E6C /* NNPFSLabel */,
+				AEBDB65022155E9200241E6C /* NNPinYin */,
 			);
 			path = NNComponent;
 			sourceTree = "<group>";
 		};
-		AEBDB598221548B500241E6C /* NNPFSLabel */ = {
+		AEBDB64822155E9200241E6C /* NNPFSLabel */ = {
 			isa = PBXGroup;
 			children = (
-				AEBDB599221548B500241E6C /* CADisplayLink+NNExtension.h */,
-				AEBDB59B221548B500241E6C /* CADisplayLink+NNExtension.m */,
-				AEBDB59C221548B500241E6C /* NNPFSLabel.h */,
-				AEBDB59A221548B500241E6C /* NNPFSLabel.m */,
+				AEBDB64922155E9200241E6C /* CADisplayLink+NNExtension.h */,
+				AEBDB64B22155E9200241E6C /* CADisplayLink+NNExtension.m */,
+				AEBDB64C22155E9200241E6C /* NNPFSLabel.h */,
+				AEBDB64A22155E9200241E6C /* NNPFSLabel.m */,
 			);
 			path = NNPFSLabel;
 			sourceTree = "<group>";
 		};
-		AEBDB59D221548B500241E6C /* NNGCDTimer */ = {
+		AEBDB64D22155E9200241E6C /* NNGCDTimer */ = {
 			isa = PBXGroup;
 			children = (
-				AEBDB59F221548B500241E6C /* NNGCDTimer.h */,
-				AEBDB59E221548B500241E6C /* NNGCDTimer.m */,
+				AEBDB64F22155E9200241E6C /* NNGCDTimer.h */,
+				AEBDB64E22155E9200241E6C /* NNGCDTimer.m */,
 			);
 			path = NNGCDTimer;
 			sourceTree = "<group>";
 		};
-		AEBDB5A0221548B500241E6C /* NNPinYin */ = {
+		AEBDB65022155E9200241E6C /* NNPinYin */ = {
 			isa = PBXGroup;
 			children = (
-				AEBDB5A1221548B500241E6C /* NNPinYin.h */,
-				AEBDB5A2221548B500241E6C /* NNPinYin.m */,
+				AEBDB65122155E9200241E6C /* NNPinYin.h */,
+				AEBDB65222155E9200241E6C /* NNPinYin.m */,
 			);
 			path = NNPinYin;
 			sourceTree = "<group>";
 		};
-		AEBDB5A3221548B500241E6C /* NNAlertView */ = {
+		AEBDB65322155E9200241E6C /* NNAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				AEBDB5A5221548B500241E6C /* NNAlertView.h */,
-				AEBDB5A7221548B500241E6C /* NNAlertView.m */,
-				AEBDB5A6221548B500241E6C /* NNNormalAlertView.h */,
-				AEBDB5A4221548B500241E6C /* NNNormalAlertView.m */,
+				AEBDB65522155E9200241E6C /* NNAlertView.h */,
+				AEBDB65722155E9200241E6C /* NNAlertView.m */,
+				AEBDB65622155E9200241E6C /* NNNormalAlertView.h */,
+				AEBDB65422155E9200241E6C /* NNNormalAlertView.m */,
 			);
 			path = NNAlertView;
+			sourceTree = "<group>";
+		};
+		AEBDB65822155E9200241E6C /* NNExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AEBDB65D22155E9200241E6C /* NNDefineMacro.h */,
+				AEBDB66822155E9200241E6C /* NNGlobalHelper.h */,
+				AEBDB65922155E9200241E6C /* NNGlobalHelper.m */,
+				AEBDB66A22155E9200241E6C /* NSObject+NNExtension.h */,
+				AEBDB65B22155E9200241E6C /* NSObject+NNExtension.m */,
+				AEBDB67322155E9200241E6C /* NSString+NNExtension.h */,
+				AEBDB66222155E9200241E6C /* NSString+NNExtension.m */,
+				AEBDB66022155E9200241E6C /* NSTimer+NNExtension.h */,
+				AEBDB66D22155E9200241E6C /* NSTimer+NNExtension.m */,
+				AEBDB66522155E9200241E6C /* UIAlertController+NNExtension.h */,
+				AEBDB67022155E9200241E6C /* UIAlertController+NNExtension.m */,
+				AEBDB67122155E9200241E6C /* UICollectionView+NNExtension.h */,
+				AEBDB66422155E9200241E6C /* UICollectionView+NNExtension.m */,
+				AEBDB65F22155E9200241E6C /* UIColor+NNExtension.h */,
+				AEBDB66E22155E9200241E6C /* UIColor+NNExtension.m */,
+				AEBDB66322155E9200241E6C /* UIControl+NNExtension.h */,
+				AEBDB67222155E9200241E6C /* UIControl+NNExtension.m */,
+				AEBDB66B22155E9200241E6C /* UIFont+NNExtension.h */,
+				AEBDB65C22155E9200241E6C /* UIFont+NNExtension.m */,
+				AEBDB65A22155E9200241E6C /* UIGestureRecognizer+NNExtension.h */,
+				AEBDB66722155E9200241E6C /* UIGestureRecognizer+NNExtension.m */,
+				AEBDB66122155E9200241E6C /* UIImage+NNExtension.h */,
+				AEBDB66C22155E9200241E6C /* UIImage+NNExtension.m */,
+				AEBDB66622155E9200241E6C /* UITableView+NNExtension.h */,
+				AEBDB66F22155E9200241E6C /* UITableView+NNExtension.m */,
+				AEBDB66922155E9200241E6C /* UIView+NNExtension.h */,
+				AEBDB65E22155E9200241E6C /* UIView+NNExtension.m */,
+			);
+			path = NNExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,28 +417,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBDB5A9221548B500241E6C /* NNGlobalHelper.m in Sources */,
-				AEBDB5AF221548B500241E6C /* UIGestureRecognizer+NNExtension.m in Sources */,
-				AEBDB5B1221548B500241E6C /* NSTimer+NNExtension.m in Sources */,
-				AEBDB5B2221548B500241E6C /* UIColor+NNExtension.m in Sources */,
-				AEBDB5B6221548B500241E6C /* NNPFSLabel.m in Sources */,
-				AEBDB5B8221548B500241E6C /* NNGCDTimer.m in Sources */,
+				AEBDB68422155E9200241E6C /* UIColor+NNExtension.m in Sources */,
+				AEBDB68522155E9200241E6C /* UITableView+NNExtension.m in Sources */,
+				AEBDB67522155E9200241E6C /* NNPFSLabel.m in Sources */,
+				AEBDB67F22155E9200241E6C /* NSString+NNExtension.m in Sources */,
+				AEBDB68022155E9200241E6C /* UICollectionView+NNExtension.m in Sources */,
+				AEBDB67622155E9200241E6C /* CADisplayLink+NNExtension.m in Sources */,
 				AEBDB54D221548A400241E6C /* ViewController.m in Sources */,
-				AEBDB5BB221548B500241E6C /* NNAlertView.m in Sources */,
-				AEBDB5B5221548B500241E6C /* UIControl+NNExtension.m in Sources */,
 				AEBDB558221548A500241E6C /* main.m in Sources */,
-				AEBDB5B0221548B500241E6C /* UIImage+NNExtension.m in Sources */,
-				AEBDB5B3221548B500241E6C /* UITableView+NNExtension.m in Sources */,
+				AEBDB68222155E9200241E6C /* UIImage+NNExtension.m in Sources */,
+				AEBDB68622155E9200241E6C /* UIAlertController+NNExtension.m in Sources */,
+				AEBDB67D22155E9200241E6C /* UIFont+NNExtension.m in Sources */,
+				AEBDB68322155E9200241E6C /* NSTimer+NNExtension.m in Sources */,
+				AEBDB67E22155E9200241E6C /* UIView+NNExtension.m in Sources */,
+				AEBDB67A22155E9200241E6C /* NNAlertView.m in Sources */,
+				AEBDB67722155E9200241E6C /* NNGCDTimer.m in Sources */,
+				AEBDB67C22155E9200241E6C /* NSObject+NNExtension.m in Sources */,
+				AEBDB67822155E9200241E6C /* NNPinYin.m in Sources */,
+				AEBDB68722155E9200241E6C /* UIControl+NNExtension.m in Sources */,
+				AEBDB67922155E9200241E6C /* NNNormalAlertView.m in Sources */,
+				AEBDB67B22155E9200241E6C /* NNGlobalHelper.m in Sources */,
 				AEBDB54A221548A400241E6C /* AppDelegate.m in Sources */,
-				AEBDB5B9221548B500241E6C /* NNPinYin.m in Sources */,
-				AEBDB5B4221548B500241E6C /* UIAlertController+NNExtension.m in Sources */,
-				AEBDB5B7221548B500241E6C /* CADisplayLink+NNExtension.m in Sources */,
-				AEBDB5AB221548B500241E6C /* UIFont+NNExtension.m in Sources */,
-				AEBDB5BA221548B500241E6C /* NNNormalAlertView.m in Sources */,
-				AEBDB5AE221548B500241E6C /* UICollectionView+NNExtension.m in Sources */,
-				AEBDB5AD221548B500241E6C /* NSString+NNExtension.m in Sources */,
-				AEBDB5AC221548B500241E6C /* UIView+NNExtension.m in Sources */,
-				AEBDB5AA221548B500241E6C /* NSObject+NNExtension.m in Sources */,
+				AEBDB68122155E9200241E6C /* UIGestureRecognizer+NNExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
