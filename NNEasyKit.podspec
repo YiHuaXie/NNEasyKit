@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NNEasyKit"
-  s.version      = "0.0.1.1"
+  s.version      = "0.0.1.2"
   s.summary      = "快速开发OC项目的框架"
   s.description  = <<-DESC
   		   一个快速开发OC项目的框架，包括Extension、Network、Components
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license      = "MIT"
   s.author       = { "NeroXie" => "xyh30902@163.com" }
   s.platform     = :ios, '8.0'
-  s.source       = { :git => "git@github.com:YiHuaXie/NNEasyKit.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/YiHuaXie/NNEasyKit.git", :tag => s.version }
   s.frameworks 	 = 'Foundation', 'UIKit'
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
