@@ -73,3 +73,22 @@ static inline void nn_notificationPostOnMainThread(NSString *notifName, id anObj
     });
 }
 
+#pragma mark - IndexPath
+
+static inline NSIndexPath* nn_indexPathMake(NSInteger row, NSInteger section) {
+    return [NSIndexPath indexPathForRow:row inSection:section];
+}
+
+#pragma mark - Error
+
+static inline NSError *nn_errorMake(NSErrorDomain domain, NSInteger code, NSString *description) {
+    NSDictionary *userInfo = nil;
+    
+    if (description.length > 0) {
+        userInfo = @{NSLocalizedFailureReasonErrorKey: description,
+                     NSLocalizedDescriptionKey: description};
+    }
+    
+    return [NSError errorWithDomain:domain code:code userInfo:userInfo];
+}
+
