@@ -30,11 +30,21 @@ Pod::Spec.new do |s|
 
   s.subspec 'NNComponent' do |ss|
 
-    ss.dependency 'NNEasyKit/NNEasyKit/NNExtension'
-
     ss.subspec 'NNAlertView' do |sss|
       sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNAlertView/*.{h,m}'
-      #sss.dependency 'NNEasyKit/NNEasyKit/NNExtension'
+    end
+    
+    ss.subspec 'NNGCDTimer' do |sss|
+      sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNGCDTimer/*.{h,m}'
+    end
+    
+    ss.subspec 'NNPFSLabel' do |sss|
+      sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNPFSLabel/*.{h,m}'
+    end
+    
+    ss.subspec 'NNPinYin' do |sss|
+      sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNPinYin/*.{h,m}'
+      sss.dependency 'NNEasyKit/NNExtension'
     end
 
   end
