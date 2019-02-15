@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
     ss.source_files = 'NNEasyKit/NNEasyKit/NNExtension/*.{h,m}'
   end
 
-  s.subspec 'NNAlertView' do |ss|
-    ss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNAlertView.{h,m}'
-  end
+  #'NNAlertView' do |ss|
+    #ss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNAlertView.{h,m}'
+  #end
 
 end
