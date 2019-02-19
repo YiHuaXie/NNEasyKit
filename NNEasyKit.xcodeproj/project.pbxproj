@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE8A5C34221C01160057683B /* NNCarouselLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8A5C30221C01160057683B /* NNCarouselLayout.m */; };
+		AE8A5C35221C01160057683B /* NNCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8A5C31221C01160057683B /* NNCarousel.m */; };
 		AEBDB54A221548A400241E6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB549221548A400241E6C /* AppDelegate.m */; };
 		AEBDB54D221548A400241E6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB54C221548A400241E6C /* ViewController.m */; };
 		AEBDB550221548A400241E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBDB54E221548A400241E6C /* Main.storyboard */; };
@@ -54,6 +56,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE8A5C30221C01160057683B /* NNCarouselLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNCarouselLayout.m; sourceTree = "<group>"; };
+		AE8A5C31221C01160057683B /* NNCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNCarousel.m; sourceTree = "<group>"; };
+		AE8A5C32221C01160057683B /* NNCarouselLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCarouselLayout.h; sourceTree = "<group>"; };
+		AE8A5C33221C01160057683B /* NNCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCarousel.h; sourceTree = "<group>"; };
 		AEBDB545221548A400241E6C /* NNEasyKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNEasyKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBDB548221548A400241E6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEBDB549221548A400241E6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -137,6 +143,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE8A5C2F221C01160057683B /* NNCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				AE8A5C33221C01160057683B /* NNCarousel.h */,
+				AE8A5C31221C01160057683B /* NNCarousel.m */,
+				AE8A5C32221C01160057683B /* NNCarouselLayout.h */,
+				AE8A5C30221C01160057683B /* NNCarouselLayout.m */,
+			);
+			path = NNCarousel;
+			sourceTree = "<group>";
+		};
 		AEBDB53C221548A400241E6C = {
 			isa = PBXGroup;
 			children = (
@@ -206,6 +223,7 @@
 			isa = PBXGroup;
 			children = (
 				AEBDB65322155E9200241E6C /* NNAlertView */,
+				AE8A5C2F221C01160057683B /* NNCarousel */,
 				AEBDB64D22155E9200241E6C /* NNGCDTimer */,
 				AEBDB64822155E9200241E6C /* NNPFSLabel */,
 				AEBDB65022155E9200241E6C /* NNPinYin */,
@@ -426,6 +444,7 @@
 				AEBDB54D221548A400241E6C /* ViewController.m in Sources */,
 				AEBDB558221548A500241E6C /* main.m in Sources */,
 				AEBDB68222155E9200241E6C /* UIImage+NNExtension.m in Sources */,
+				AE8A5C35221C01160057683B /* NNCarousel.m in Sources */,
 				AEBDB68622155E9200241E6C /* UIAlertController+NNExtension.m in Sources */,
 				AEBDB67D22155E9200241E6C /* UIFont+NNExtension.m in Sources */,
 				AEBDB68322155E9200241E6C /* NSTimer+NNExtension.m in Sources */,
@@ -439,6 +458,7 @@
 				AEBDB67B22155E9200241E6C /* NNGlobalHelper.m in Sources */,
 				AEBDB54A221548A400241E6C /* AppDelegate.m in Sources */,
 				AEBDB68122155E9200241E6C /* UIGestureRecognizer+NNExtension.m in Sources */,
+				AE8A5C34221C01160057683B /* NNCarouselLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

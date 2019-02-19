@@ -47,6 +47,10 @@ Pod::Spec.new do |s|
       sss.dependency 'NNEasyKit/NNExtension'
     end
 
+    ss.subspec 'NNCarousel' do |sss|
+      sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNCarousel/*.{h,m}'
+    end
+
   end
 
 end
