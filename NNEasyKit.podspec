@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NNEasyKit"
-  s.version      = "0.0.1.5"
+  s.version      = "0.0.1.6"
   s.summary      = "快速开发OC项目的框架"
   s.description  = <<-DESC
   		   一个快速开发OC项目的框架，包括Extension、Network、Components
