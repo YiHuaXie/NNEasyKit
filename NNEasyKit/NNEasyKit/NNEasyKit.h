@@ -23,5 +23,6 @@
 #import "NSTimer+NNExtension.h"
 #import "UIGestureRecognizer+NNExtension.h"
 #import "UIControl+NNExtension.h"
+#import "UIImage+NNExtension.h"
 
 #endif /* NNEasyKit_h */
