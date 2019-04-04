@@ -77,15 +77,13 @@ typedef NS_ENUM(NSUInteger, NNCarouselScrollDirection) {
  */
 @property (nonatomic, assign) BOOL infiniteLoop;
 
-// 当不是不限循环的时候，第一项或者最后一项是否需要居中
+/**
+ * First item or last item should be centered when infiniteLoop is no
+ */
 @property (nonatomic, assign) BOOL firstOrLastItemCenterWhenNotInfiniteLoop;
 
-/**
- current page index
- */
 @property (nonatomic, readonly, assign) NNIndexPath currentIndexPath;
 @property (nonatomic, readonly, assign) NSInteger currentItem;
-
 
 /**
  * Scroll to the item you need

@@ -137,8 +137,8 @@ UICollectionViewDelegateFlowLayout>
     self.collectionView.delegate = self;
     self.collectionView.pagingEnabled = NO;
     self.collectionView.decelerationRate = 1-0.0076;
-    if ([self.collectionView respondsToSelector:@selector(setPrefetchingEnabled:)]) {
-        self.collectionView.prefetchingEnabled = NO;
+    if (@available(iOS 10.0, *)) {
+         self.collectionView.prefetchingEnabled = NO;
     }
     self.collectionView.showsHorizontalScrollIndicator = NO;
     self.collectionView.showsVerticalScrollIndicator = NO;

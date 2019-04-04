@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DelayOperationViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qQS-Qn-skf">
+                    <rect key="frame" x="20" y="130" width="98" height="30"/>
+                    <state key="normal" title="dispatch_after"/>
+                    <connections>
+                        <action selector="_didDispatchAfterPressed:" destination="-1" eventType="touchUpInside" id="5DM-1r-Jf2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GY3-PI-kcS">
+                    <rect key="frame" x="20" y="165" width="113" height="30"/>
+                    <state key="normal" title="performSelector"/>
+                    <connections>
+                        <action selector="_didPerformSelectorPressed:" destination="-1" eventType="touchUpInside" id="Slr-YA-LML"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRd-8h-5KQ">
+                    <rect key="frame" x="20" y="200" width="60" height="30"/>
+                    <state key="normal" title="NSTimer"/>
+                    <connections>
+                        <action selector="_didNSTimerPressed:" destination="-1" eventType="touchUpInside" id="E2m-hB-Oh1"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zWa-0k-NIR">
+                    <rect key="frame" x="20" y="307" width="164" height="30"/>
+                    <state key="normal" title="performSelector Cancel"/>
+                    <connections>
+                        <action selector="_didPerformSelectorCancelPressed:" destination="-1" eventType="touchUpInside" id="iVO-UK-6cF"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="n3a-iQ-cqp">
+                    <rect key="frame" x="20" y="345" width="149" height="30"/>
+                    <state key="normal" title="dispatch_after Cancel"/>
+                    <connections>
+                        <action selector="_didDispatchAfterCancelPressed:" destination="-1" eventType="touchUpInside" id="4tY-ZV-Aka"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9cA-vZ-xyT">
+                    <rect key="frame" x="20" y="383" width="111" height="30"/>
+                    <state key="normal" title="NSTimer Cancel"/>
+                    <connections>
+                        <action selector="_didNSTimerCancelPressed:" destination="-1" eventType="touchUpInside" id="5vi-En-5gn"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GY3-PI-kcS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="165" id="4Lo-p6-pxy"/>
+                <constraint firstItem="9cA-vZ-xyT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="4Lu-dp-SSc"/>
+                <constraint firstItem="n3a-iQ-cqp" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="345" id="IUN-t2-j9q"/>
+                <constraint firstItem="zWa-0k-NIR" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="307" id="Pke-MQ-YrP"/>
+                <constraint firstItem="GRd-8h-5KQ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Yxi-XU-EuK"/>
+                <constraint firstItem="zWa-0k-NIR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="a4n-eF-gHa"/>
+                <constraint firstItem="GRd-8h-5KQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="200" id="dPO-Aq-gpA"/>
+                <constraint firstItem="qQS-Qn-skf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="pJ2-nS-oXJ"/>
+                <constraint firstItem="9cA-vZ-xyT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="383" id="vdQ-XV-2Sc"/>
+                <constraint firstItem="n3a-iQ-cqp" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="vyq-hj-4gE"/>
+                <constraint firstItem="qQS-Qn-skf" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="130" id="xci-hS-q9A"/>
+                <constraint firstItem="GY3-PI-kcS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="yhU-dk-Ylc"/>
+            </constraints>
+            <point key="canvasLocation" x="25" y="131"/>
+        </view>
+    </objects>
+</document>

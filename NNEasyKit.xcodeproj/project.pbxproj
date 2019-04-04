@@ -7,8 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96D410173B894337951374E5 /* libPods-NNEasyKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9CCD1F7A9489DD82C8C995 /* libPods-NNEasyKit.a */; };
 		AE8A5C34221C01160057683B /* NNCarouselLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8A5C30221C01160057683B /* NNCarouselLayout.m */; };
 		AE8A5C35221C01160057683B /* NNCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE8A5C31221C01160057683B /* NNCarousel.m */; };
+		AEA57BEC222E3A0000F334B4 /* x2.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B91222E3A0000F334B4 /* x2.png */; };
+		AEA57BED222E3A0000F334B4 /* x3.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B92222E3A0000F334B4 /* x3.png */; };
+		AEA57BEE222E3A0000F334B4 /* x1.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B93222E3A0000F334B4 /* x1.png */; };
+		AEA57BEF222E3A0000F334B4 /* BackgroundTile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B94222E3A0000F334B4 /* BackgroundTile@2x.png */; };
+		AEA57BF0222E3A0000F334B4 /* x0.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B95222E3A0000F334B4 /* x0.png */; };
+		AEA57BF1222E3A0000F334B4 /* x4.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B96222E3A0000F334B4 /* x4.png */; };
+		AEA57BF2222E3A0000F334B4 /* Box1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B97222E3A0000F334B4 /* Box1@2x.png */; };
+		AEA57BF3222E3A0000F334B4 /* Origin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B98222E3A0000F334B4 /* Origin@2x.png */; };
+		AEA57BF4222E3A0000F334B4 /* x5.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B99222E3A0000F334B4 /* x5.png */; };
+		AEA57BF5222E3A0000F334B4 /* Arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B9A222E3A0000F334B4 /* Arrow@2x.png */; };
+		AEA57BF6222E3A0000F334B4 /* githubhead1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B9B222E3A0000F334B4 /* githubhead1.jpeg */; };
+		AEA57BF7222E3A0000F334B4 /* Floor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B9C222E3A0000F334B4 /* Floor@2x.png */; };
+		AEA57BF8222E3A0000F334B4 /* ship-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B9E222E3A0000F334B4 /* ship-shadow.png */; };
+		AEA57BF9222E3A0000F334B4 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57B9F222E3A0000F334B4 /* ship.png */; };
+		AEA57BFA222E3A0000F334B4 /* yurt1.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BA0222E3A0000F334B4 /* yurt1.png */; };
+		AEA57BFB222E3A0000F334B4 /* octocat-shadow.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BA1222E3A0000F334B4 /* octocat-shadow.png */; };
+		AEA57BFC222E3A0000F334B4 /* yurt2.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BA2222E3A0000F334B4 /* yurt2.png */; };
+		AEA57BFD222E3A0000F334B4 /* octocat.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BA3222E3A0000F334B4 /* octocat.png */; };
+		AEA57BFE222E3A0000F334B4 /* bg.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BA4222E3A0000F334B4 /* bg.jpeg */; };
+		AEA57BFF222E3A0000F334B4 /* text.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BA5222E3A0000F334B4 /* text.png */; };
+		AEA57C00222E3A0000F334B4 /* blackhole.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BA6222E3A0000F334B4 /* blackhole.png */; };
+		AEA57C01222E3A0000F334B4 /* Box2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BA7222E3A0000F334B4 /* Box2@2x.png */; };
+		AEA57C02222E3A0000F334B4 /* ButtonOutline@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BA8222E3A0000F334B4 /* ButtonOutline@2x.png */; };
+		AEA57C03222E3A0000F334B4 /* AttachmentPoint_Mask@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BA9222E3A0000F334B4 /* AttachmentPoint_Mask@2x.png */; };
+		AEA57C04222E3A0000F334B4 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BAB222E3A0000F334B4 /* ViewController.xib */; };
+		AEA57C05222E3A0000F334B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BAD222E3A0000F334B4 /* ViewController.m */; };
+		AEA57C06222E3A0000F334B4 /* UIImage+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BAE222E3A0000F334B4 /* UIImage+NNExtension.m */; };
+		AEA57C07222E3A0000F334B4 /* Test1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BB2222E3A0000F334B4 /* Test1ViewController.m */; };
+		AEA57C08222E3A0000F334B4 /* NNTransitionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BB5222E3A0000F334B4 /* NNTransitionViewController.xib */; };
+		AEA57C09222E3A0000F334B4 /* NNTransitionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BB6222E3A0000F334B4 /* NNTransitionViewController.m */; };
+		AEA57C0A222E3A0000F334B4 /* UIViewController+NNTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BB8222E3A0000F334B4 /* UIViewController+NNTransition.m */; };
+		AEA57C0B222E3A0000F334B4 /* NNEasyAnimatedTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BBD222E3A0000F334B4 /* NNEasyAnimatedTransition.m */; };
+		AEA57C0C222E3A0000F334B4 /* NNCircleSpreadAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BC0222E3A0000F334B4 /* NNCircleSpreadAnimationTransition.m */; };
+		AEA57C0D222E3A0000F334B4 /* NNExplodeAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BC1222E3A0000F334B4 /* NNExplodeAnimationTransition.m */; };
+		AEA57C0E222E3A0000F334B4 /* NNSpreadAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BC3222E3A0000F334B4 /* NNSpreadAnimationTransition.m */; };
+		AEA57C0F222E3A0000F334B4 /* NNScaleAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BC4222E3A0000F334B4 /* NNScaleAnimationTransition.m */; };
+		AEA57C10222E3A0000F334B4 /* NNPortalAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BC6222E3A0000F334B4 /* NNPortalAnimationTransition.m */; };
+		AEA57C11222E3A0000F334B4 /* NNAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BC7222E3A0000F334B4 /* NNAnimationTransition.m */; };
+		AEA57C12222E3A0000F334B4 /* NNFlipAnimationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BC9222E3A0000F334B4 /* NNFlipAnimationTransition.m */; };
+		AEA57C13222E3A0000F334B4 /* NNSwipeInteractionTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BCD222E3A0000F334B4 /* NNSwipeInteractionTransition.m */; };
+		AEA57C14222E3A0000F334B4 /* NNHorizontalSwipeInteractionTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BCE222E3A0000F334B4 /* NNHorizontalSwipeInteractionTransition.m */; };
+		AEA57C15222E3A0000F334B4 /* NNInteractionTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BCF222E3A0000F334B4 /* NNInteractionTransition.m */; };
+		AEA57C16222E3A0000F334B4 /* UIViewAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BD4222E3A0000F334B4 /* UIViewAnimationVC.m */; };
+		AEA57C17222E3A0000F334B4 /* UIKitDynamicsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BD6222E3A0000F334B4 /* UIKitDynamicsVC.m */; };
+		AEA57C18222E3A0000F334B4 /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BDB222E3A0000F334B4 /* AViewController.m */; };
+		AEA57C19222E3A0000F334B4 /* NavigationTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BDD222E3A0000F334B4 /* NavigationTransition.m */; };
+		AEA57C1A222E3A0000F334B4 /* AViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BDE222E3A0000F334B4 /* AViewController.xib */; };
+		AEA57C1B222E3A0000F334B4 /* InteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BDF222E3A0000F334B4 /* InteractiveTransition.m */; };
+		AEA57C1C222E3A0000F334B4 /* BViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BE0222E3A0000F334B4 /* BViewController.xib */; };
+		AEA57C1D222E3A0000F334B4 /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BE1222E3A0000F334B4 /* BViewController.m */; };
+		AEA57C1E222E3A0000F334B4 /* PresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BE2222E3A0000F334B4 /* PresentTransition.m */; };
+		AEA57C1F222E3A0000F334B4 /* CoreAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BE6222E3A0000F334B4 /* CoreAnimationVC.m */; };
+		AEA57C20222E3A0000F334B4 /* MotionEffectsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57BE9222E3A0000F334B4 /* MotionEffectsViewController.m */; };
+		AEA57C21222E3A0000F334B4 /* MotionEffectsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA57BEA222E3A0000F334B4 /* MotionEffectsViewController.xib */; };
+		AEA57C26222E3AE400F334B4 /* DelayOperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA57C23222E3AE400F334B4 /* DelayOperationViewController.xib */; };
+		AEA57C27222E3AE400F334B4 /* DelayOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57C25222E3AE400F334B4 /* DelayOperationViewController.m */; };
 		AEBDB54A221548A400241E6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB549221548A400241E6C /* AppDelegate.m */; };
 		AEBDB54D221548A400241E6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB54C221548A400241E6C /* ViewController.m */; };
 		AEBDB550221548A400241E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBDB54E221548A400241E6C /* Main.storyboard */; };
@@ -60,6 +117,89 @@
 		AE8A5C31221C01160057683B /* NNCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNCarousel.m; sourceTree = "<group>"; };
 		AE8A5C32221C01160057683B /* NNCarouselLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCarouselLayout.h; sourceTree = "<group>"; };
 		AE8A5C33221C01160057683B /* NNCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCarousel.h; sourceTree = "<group>"; };
+		AE9CCD1F7A9489DD82C8C995 /* libPods-NNEasyKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NNEasyKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AEA57B91222E3A0000F334B4 /* x2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x2.png; sourceTree = "<group>"; };
+		AEA57B92222E3A0000F334B4 /* x3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x3.png; sourceTree = "<group>"; };
+		AEA57B93222E3A0000F334B4 /* x1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x1.png; sourceTree = "<group>"; };
+		AEA57B94222E3A0000F334B4 /* BackgroundTile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackgroundTile@2x.png"; sourceTree = "<group>"; };
+		AEA57B95222E3A0000F334B4 /* x0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x0.png; sourceTree = "<group>"; };
+		AEA57B96222E3A0000F334B4 /* x4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x4.png; sourceTree = "<group>"; };
+		AEA57B97222E3A0000F334B4 /* Box1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Box1@2x.png"; sourceTree = "<group>"; };
+		AEA57B98222E3A0000F334B4 /* Origin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Origin@2x.png"; sourceTree = "<group>"; };
+		AEA57B99222E3A0000F334B4 /* x5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = x5.png; sourceTree = "<group>"; };
+		AEA57B9A222E3A0000F334B4 /* Arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow@2x.png"; sourceTree = "<group>"; };
+		AEA57B9B222E3A0000F334B4 /* githubhead1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = githubhead1.jpeg; sourceTree = "<group>"; };
+		AEA57B9C222E3A0000F334B4 /* Floor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Floor@2x.png"; sourceTree = "<group>"; };
+		AEA57B9E222E3A0000F334B4 /* ship-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ship-shadow.png"; sourceTree = "<group>"; };
+		AEA57B9F222E3A0000F334B4 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
+		AEA57BA0222E3A0000F334B4 /* yurt1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yurt1.png; sourceTree = "<group>"; };
+		AEA57BA1222E3A0000F334B4 /* octocat-shadow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "octocat-shadow.png"; sourceTree = "<group>"; };
+		AEA57BA2222E3A0000F334B4 /* yurt2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yurt2.png; sourceTree = "<group>"; };
+		AEA57BA3222E3A0000F334B4 /* octocat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = octocat.png; sourceTree = "<group>"; };
+		AEA57BA4222E3A0000F334B4 /* bg.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = bg.jpeg; sourceTree = "<group>"; };
+		AEA57BA5222E3A0000F334B4 /* text.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text.png; sourceTree = "<group>"; };
+		AEA57BA6222E3A0000F334B4 /* blackhole.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackhole.png; sourceTree = "<group>"; };
+		AEA57BA7222E3A0000F334B4 /* Box2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Box2@2x.png"; sourceTree = "<group>"; };
+		AEA57BA8222E3A0000F334B4 /* ButtonOutline@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ButtonOutline@2x.png"; sourceTree = "<group>"; };
+		AEA57BA9222E3A0000F334B4 /* AttachmentPoint_Mask@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AttachmentPoint_Mask@2x.png"; sourceTree = "<group>"; };
+		AEA57BAB222E3A0000F334B4 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		AEA57BAC222E3A0000F334B4 /* UIImage+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NNExtension.h"; sourceTree = "<group>"; };
+		AEA57BAD222E3A0000F334B4 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AEA57BAE222E3A0000F334B4 /* UIImage+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NNExtension.m"; sourceTree = "<group>"; };
+		AEA57BAF222E3A0000F334B4 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEA57BB2222E3A0000F334B4 /* Test1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Test1ViewController.m; sourceTree = "<group>"; };
+		AEA57BB3222E3A0000F334B4 /* NNTransitionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNTransitionViewController.h; sourceTree = "<group>"; };
+		AEA57BB4222E3A0000F334B4 /* Test1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Test1ViewController.h; sourceTree = "<group>"; };
+		AEA57BB5222E3A0000F334B4 /* NNTransitionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NNTransitionViewController.xib; sourceTree = "<group>"; };
+		AEA57BB6222E3A0000F334B4 /* NNTransitionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNTransitionViewController.m; sourceTree = "<group>"; };
+		AEA57BB8222E3A0000F334B4 /* UIViewController+NNTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NNTransition.m"; sourceTree = "<group>"; };
+		AEA57BB9222E3A0000F334B4 /* UIViewController+NNTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NNTransition.h"; sourceTree = "<group>"; };
+		AEA57BBB222E3A0000F334B4 /* NNScaleAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNScaleAnimationTransition.h; sourceTree = "<group>"; };
+		AEA57BBC222E3A0000F334B4 /* NNSpreadAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNSpreadAnimationTransition.h; sourceTree = "<group>"; };
+		AEA57BBD222E3A0000F334B4 /* NNEasyAnimatedTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNEasyAnimatedTransition.m; sourceTree = "<group>"; };
+		AEA57BBE222E3A0000F334B4 /* NNPortalAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPortalAnimationTransition.h; sourceTree = "<group>"; };
+		AEA57BBF222E3A0000F334B4 /* NNAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNAnimationTransition.h; sourceTree = "<group>"; };
+		AEA57BC0222E3A0000F334B4 /* NNCircleSpreadAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNCircleSpreadAnimationTransition.m; sourceTree = "<group>"; };
+		AEA57BC1222E3A0000F334B4 /* NNExplodeAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNExplodeAnimationTransition.m; sourceTree = "<group>"; };
+		AEA57BC2222E3A0000F334B4 /* NNFlipAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNFlipAnimationTransition.h; sourceTree = "<group>"; };
+		AEA57BC3222E3A0000F334B4 /* NNSpreadAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNSpreadAnimationTransition.m; sourceTree = "<group>"; };
+		AEA57BC4222E3A0000F334B4 /* NNScaleAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNScaleAnimationTransition.m; sourceTree = "<group>"; };
+		AEA57BC5222E3A0000F334B4 /* NNCircleSpreadAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCircleSpreadAnimationTransition.h; sourceTree = "<group>"; };
+		AEA57BC6222E3A0000F334B4 /* NNPortalAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPortalAnimationTransition.m; sourceTree = "<group>"; };
+		AEA57BC7222E3A0000F334B4 /* NNAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNAnimationTransition.m; sourceTree = "<group>"; };
+		AEA57BC8222E3A0000F334B4 /* NNEasyAnimatedTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNEasyAnimatedTransition.h; sourceTree = "<group>"; };
+		AEA57BC9222E3A0000F334B4 /* NNFlipAnimationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNFlipAnimationTransition.m; sourceTree = "<group>"; };
+		AEA57BCA222E3A0000F334B4 /* NNExplodeAnimationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNExplodeAnimationTransition.h; sourceTree = "<group>"; };
+		AEA57BCC222E3A0000F334B4 /* NNInteractionTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNInteractionTransition.h; sourceTree = "<group>"; };
+		AEA57BCD222E3A0000F334B4 /* NNSwipeInteractionTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNSwipeInteractionTransition.m; sourceTree = "<group>"; };
+		AEA57BCE222E3A0000F334B4 /* NNHorizontalSwipeInteractionTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNHorizontalSwipeInteractionTransition.m; sourceTree = "<group>"; };
+		AEA57BCF222E3A0000F334B4 /* NNInteractionTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNInteractionTransition.m; sourceTree = "<group>"; };
+		AEA57BD0222E3A0000F334B4 /* NNSwipeInteractionTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNSwipeInteractionTransition.h; sourceTree = "<group>"; };
+		AEA57BD1222E3A0000F334B4 /* NNHorizontalSwipeInteractionTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNHorizontalSwipeInteractionTransition.h; sourceTree = "<group>"; };
+		AEA57BD3222E3A0000F334B4 /* UIViewAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewAnimationVC.h; sourceTree = "<group>"; };
+		AEA57BD4222E3A0000F334B4 /* UIViewAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewAnimationVC.m; sourceTree = "<group>"; };
+		AEA57BD6222E3A0000F334B4 /* UIKitDynamicsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIKitDynamicsVC.m; sourceTree = "<group>"; };
+		AEA57BD7222E3A0000F334B4 /* UIKitDynamicsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitDynamicsVC.h; sourceTree = "<group>"; };
+		AEA57BD9222E3A0000F334B4 /* InteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InteractiveTransition.h; sourceTree = "<group>"; };
+		AEA57BDA222E3A0000F334B4 /* BViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BViewController.h; sourceTree = "<group>"; };
+		AEA57BDB222E3A0000F334B4 /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
+		AEA57BDC222E3A0000F334B4 /* PresentTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentTransition.h; sourceTree = "<group>"; };
+		AEA57BDD222E3A0000F334B4 /* NavigationTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationTransition.m; sourceTree = "<group>"; };
+		AEA57BDE222E3A0000F334B4 /* AViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AViewController.xib; sourceTree = "<group>"; };
+		AEA57BDF222E3A0000F334B4 /* InteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InteractiveTransition.m; sourceTree = "<group>"; };
+		AEA57BE0222E3A0000F334B4 /* BViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BViewController.xib; sourceTree = "<group>"; };
+		AEA57BE1222E3A0000F334B4 /* BViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BViewController.m; sourceTree = "<group>"; };
+		AEA57BE2222E3A0000F334B4 /* PresentTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentTransition.m; sourceTree = "<group>"; };
+		AEA57BE3222E3A0000F334B4 /* NavigationTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationTransition.h; sourceTree = "<group>"; };
+		AEA57BE4222E3A0000F334B4 /* AViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AViewController.h; sourceTree = "<group>"; };
+		AEA57BE6222E3A0000F334B4 /* CoreAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreAnimationVC.m; sourceTree = "<group>"; };
+		AEA57BE7222E3A0000F334B4 /* CoreAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreAnimationVC.h; sourceTree = "<group>"; };
+		AEA57BE9222E3A0000F334B4 /* MotionEffectsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MotionEffectsViewController.m; sourceTree = "<group>"; };
+		AEA57BEA222E3A0000F334B4 /* MotionEffectsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MotionEffectsViewController.xib; sourceTree = "<group>"; };
+		AEA57BEB222E3A0000F334B4 /* MotionEffectsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MotionEffectsViewController.h; sourceTree = "<group>"; };
+		AEA57C23222E3AE400F334B4 /* DelayOperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DelayOperationViewController.xib; sourceTree = "<group>"; };
+		AEA57C24222E3AE400F334B4 /* DelayOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayOperationViewController.h; sourceTree = "<group>"; };
+		AEA57C25222E3AE400F334B4 /* DelayOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayOperationViewController.m; sourceTree = "<group>"; };
 		AEBDB545221548A400241E6C /* NNEasyKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NNEasyKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBDB548221548A400241E6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AEBDB549221548A400241E6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -116,6 +256,8 @@
 		AEBDB67222155E9200241E6C /* UIControl+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+NNExtension.m"; sourceTree = "<group>"; };
 		AEBDB67322155E9200241E6C /* NSString+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NNExtension.h"; sourceTree = "<group>"; };
 		AEBDB67422155E9200241E6C /* NNEasyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNEasyKit.h; sourceTree = "<group>"; };
+		DAAD2B5082AD704F677D7D93 /* Pods-NNEasyKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNEasyKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NNEasyKit/Pods-NNEasyKit.debug.xcconfig"; sourceTree = "<group>"; };
+		F3ABF50F3C5FE4453D50D873 /* Pods-NNEasyKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNEasyKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-NNEasyKit/Pods-NNEasyKit.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +265,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96D410173B894337951374E5 /* libPods-NNEasyKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +286,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		19DCB99440E3A79149004748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE9CCD1F7A9489DD82C8C995 /* libPods-NNEasyKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A7AF004BD5AE7B09B8825C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAAD2B5082AD704F677D7D93 /* Pods-NNEasyKit.debug.xcconfig */,
+				F3ABF50F3C5FE4453D50D873 /* Pods-NNEasyKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		AE8A5C2F221C01160057683B /* NNCarousel */ = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +314,206 @@
 			path = NNCarousel;
 			sourceTree = "<group>";
 		};
+		AEA57B8F222E3A0000F334B4 /* iOSAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BE5222E3A0000F334B4 /* CoreAnimation */,
+				AEA57B90222E3A0000F334B4 /* images */,
+				AEA57BE8222E3A0000F334B4 /* MotionEffects */,
+				AEA57BB0222E3A0000F334B4 /* NNTransition */,
+				AEA57BAA222E3A0000F334B4 /* Other */,
+				AEA57BD5222E3A0000F334B4 /* UIKitDynamics */,
+				AEA57BD2222E3A0000F334B4 /* UIViewAnimation */,
+				AEA57BD8222E3A0000F334B4 /* ViewControllerTransition */,
+			);
+			path = iOSAnimation;
+			sourceTree = "<group>";
+		};
+		AEA57B90222E3A0000F334B4 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57B9A222E3A0000F334B4 /* Arrow@2x.png */,
+				AEA57BA9222E3A0000F334B4 /* AttachmentPoint_Mask@2x.png */,
+				AEA57B94222E3A0000F334B4 /* BackgroundTile@2x.png */,
+				AEA57BA6222E3A0000F334B4 /* blackhole.png */,
+				AEA57B97222E3A0000F334B4 /* Box1@2x.png */,
+				AEA57BA7222E3A0000F334B4 /* Box2@2x.png */,
+				AEA57BA8222E3A0000F334B4 /* ButtonOutline@2x.png */,
+				AEA57B9C222E3A0000F334B4 /* Floor@2x.png */,
+				AEA57B9D222E3A0000F334B4 /* github404 */,
+				AEA57B9B222E3A0000F334B4 /* githubhead1.jpeg */,
+				AEA57B98222E3A0000F334B4 /* Origin@2x.png */,
+				AEA57B95222E3A0000F334B4 /* x0.png */,
+				AEA57B93222E3A0000F334B4 /* x1.png */,
+				AEA57B91222E3A0000F334B4 /* x2.png */,
+				AEA57B92222E3A0000F334B4 /* x3.png */,
+				AEA57B96222E3A0000F334B4 /* x4.png */,
+				AEA57B99222E3A0000F334B4 /* x5.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		AEA57B9D222E3A0000F334B4 /* github404 */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57B9E222E3A0000F334B4 /* ship-shadow.png */,
+				AEA57B9F222E3A0000F334B4 /* ship.png */,
+				AEA57BA0222E3A0000F334B4 /* yurt1.png */,
+				AEA57BA1222E3A0000F334B4 /* octocat-shadow.png */,
+				AEA57BA2222E3A0000F334B4 /* yurt2.png */,
+				AEA57BA3222E3A0000F334B4 /* octocat.png */,
+				AEA57BA4222E3A0000F334B4 /* bg.jpeg */,
+				AEA57BA5222E3A0000F334B4 /* text.png */,
+			);
+			path = github404;
+			sourceTree = "<group>";
+		};
+		AEA57BAA222E3A0000F334B4 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BAC222E3A0000F334B4 /* UIImage+NNExtension.h */,
+				AEA57BAE222E3A0000F334B4 /* UIImage+NNExtension.m */,
+				AEA57BAF222E3A0000F334B4 /* ViewController.h */,
+				AEA57BAD222E3A0000F334B4 /* ViewController.m */,
+				AEA57BAB222E3A0000F334B4 /* ViewController.xib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		AEA57BB0222E3A0000F334B4 /* NNTransition */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BB7222E3A0000F334B4 /* NNTransition */,
+				AEA57BB1222E3A0000F334B4 /* Test */,
+			);
+			path = NNTransition;
+			sourceTree = "<group>";
+		};
+		AEA57BB1222E3A0000F334B4 /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BB3222E3A0000F334B4 /* NNTransitionViewController.h */,
+				AEA57BB6222E3A0000F334B4 /* NNTransitionViewController.m */,
+				AEA57BB5222E3A0000F334B4 /* NNTransitionViewController.xib */,
+				AEA57BB4222E3A0000F334B4 /* Test1ViewController.h */,
+				AEA57BB2222E3A0000F334B4 /* Test1ViewController.m */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		AEA57BB7222E3A0000F334B4 /* NNTransition */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BBA222E3A0000F334B4 /* NNAnimationTransition */,
+				AEA57BCB222E3A0000F334B4 /* NNInteractionTransition */,
+				AEA57BB9222E3A0000F334B4 /* UIViewController+NNTransition.h */,
+				AEA57BB8222E3A0000F334B4 /* UIViewController+NNTransition.m */,
+			);
+			path = NNTransition;
+			sourceTree = "<group>";
+		};
+		AEA57BBA222E3A0000F334B4 /* NNAnimationTransition */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BBF222E3A0000F334B4 /* NNAnimationTransition.h */,
+				AEA57BC7222E3A0000F334B4 /* NNAnimationTransition.m */,
+				AEA57BC5222E3A0000F334B4 /* NNCircleSpreadAnimationTransition.h */,
+				AEA57BC0222E3A0000F334B4 /* NNCircleSpreadAnimationTransition.m */,
+				AEA57BC8222E3A0000F334B4 /* NNEasyAnimatedTransition.h */,
+				AEA57BBD222E3A0000F334B4 /* NNEasyAnimatedTransition.m */,
+				AEA57BCA222E3A0000F334B4 /* NNExplodeAnimationTransition.h */,
+				AEA57BC1222E3A0000F334B4 /* NNExplodeAnimationTransition.m */,
+				AEA57BC2222E3A0000F334B4 /* NNFlipAnimationTransition.h */,
+				AEA57BC9222E3A0000F334B4 /* NNFlipAnimationTransition.m */,
+				AEA57BBE222E3A0000F334B4 /* NNPortalAnimationTransition.h */,
+				AEA57BC6222E3A0000F334B4 /* NNPortalAnimationTransition.m */,
+				AEA57BBB222E3A0000F334B4 /* NNScaleAnimationTransition.h */,
+				AEA57BC4222E3A0000F334B4 /* NNScaleAnimationTransition.m */,
+				AEA57BBC222E3A0000F334B4 /* NNSpreadAnimationTransition.h */,
+				AEA57BC3222E3A0000F334B4 /* NNSpreadAnimationTransition.m */,
+			);
+			path = NNAnimationTransition;
+			sourceTree = "<group>";
+		};
+		AEA57BCB222E3A0000F334B4 /* NNInteractionTransition */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BCC222E3A0000F334B4 /* NNInteractionTransition.h */,
+				AEA57BCD222E3A0000F334B4 /* NNSwipeInteractionTransition.m */,
+				AEA57BCE222E3A0000F334B4 /* NNHorizontalSwipeInteractionTransition.m */,
+				AEA57BCF222E3A0000F334B4 /* NNInteractionTransition.m */,
+				AEA57BD0222E3A0000F334B4 /* NNSwipeInteractionTransition.h */,
+				AEA57BD1222E3A0000F334B4 /* NNHorizontalSwipeInteractionTransition.h */,
+			);
+			path = NNInteractionTransition;
+			sourceTree = "<group>";
+		};
+		AEA57BD2222E3A0000F334B4 /* UIViewAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BD3222E3A0000F334B4 /* UIViewAnimationVC.h */,
+				AEA57BD4222E3A0000F334B4 /* UIViewAnimationVC.m */,
+			);
+			path = UIViewAnimation;
+			sourceTree = "<group>";
+		};
+		AEA57BD5222E3A0000F334B4 /* UIKitDynamics */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BD7222E3A0000F334B4 /* UIKitDynamicsVC.h */,
+				AEA57BD6222E3A0000F334B4 /* UIKitDynamicsVC.m */,
+			);
+			path = UIKitDynamics;
+			sourceTree = "<group>";
+		};
+		AEA57BD8222E3A0000F334B4 /* ViewControllerTransition */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BE4222E3A0000F334B4 /* AViewController.h */,
+				AEA57BDB222E3A0000F334B4 /* AViewController.m */,
+				AEA57BDE222E3A0000F334B4 /* AViewController.xib */,
+				AEA57BDA222E3A0000F334B4 /* BViewController.h */,
+				AEA57BE1222E3A0000F334B4 /* BViewController.m */,
+				AEA57BE0222E3A0000F334B4 /* BViewController.xib */,
+				AEA57BD9222E3A0000F334B4 /* InteractiveTransition.h */,
+				AEA57BDF222E3A0000F334B4 /* InteractiveTransition.m */,
+				AEA57BE3222E3A0000F334B4 /* NavigationTransition.h */,
+				AEA57BDD222E3A0000F334B4 /* NavigationTransition.m */,
+				AEA57BDC222E3A0000F334B4 /* PresentTransition.h */,
+				AEA57BE2222E3A0000F334B4 /* PresentTransition.m */,
+			);
+			path = ViewControllerTransition;
+			sourceTree = "<group>";
+		};
+		AEA57BE5222E3A0000F334B4 /* CoreAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BE7222E3A0000F334B4 /* CoreAnimationVC.h */,
+				AEA57BE6222E3A0000F334B4 /* CoreAnimationVC.m */,
+			);
+			path = CoreAnimation;
+			sourceTree = "<group>";
+		};
+		AEA57BE8222E3A0000F334B4 /* MotionEffects */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57BEB222E3A0000F334B4 /* MotionEffectsViewController.h */,
+				AEA57BE9222E3A0000F334B4 /* MotionEffectsViewController.m */,
+				AEA57BEA222E3A0000F334B4 /* MotionEffectsViewController.xib */,
+			);
+			path = MotionEffects;
+			sourceTree = "<group>";
+		};
+		AEA57C22222E3ACC00F334B4 /* DelayOperation */ = {
+			isa = PBXGroup;
+			children = (
+				AEA57C24222E3AE400F334B4 /* DelayOperationViewController.h */,
+				AEA57C25222E3AE400F334B4 /* DelayOperationViewController.m */,
+				AEA57C23222E3AE400F334B4 /* DelayOperationViewController.xib */,
+			);
+			path = DelayOperation;
+			sourceTree = "<group>";
+		};
 		AEBDB53C221548A400241E6C = {
 			isa = PBXGroup;
 			children = (
@@ -161,6 +521,8 @@
 				AEBDB560221548A500241E6C /* NNEasyKitTests */,
 				AEBDB56B221548A500241E6C /* NNEasyKitUITests */,
 				AEBDB546221548A400241E6C /* Products */,
+				5A7AF004BD5AE7B09B8825C8 /* Pods */,
+				19DCB99440E3A79149004748 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -177,6 +539,8 @@
 		AEBDB547221548A400241E6C /* NNEasyKit */ = {
 			isa = PBXGroup;
 			children = (
+				AEA57C22222E3ACC00F334B4 /* DelayOperation */,
+				AEA57B8F222E3A0000F334B4 /* iOSAnimation */,
 				AEBDB64622155E9200241E6C /* NNEasyKit */,
 				AEBDB548221548A400241E6C /* AppDelegate.h */,
 				AEBDB549221548A400241E6C /* AppDelegate.m */,
@@ -312,6 +676,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AEBDB571221548A500241E6C /* Build configuration list for PBXNativeTarget "NNEasyKit" */;
 			buildPhases = (
+				F2D064EFB41AF8A9C482F332 /* [CP] Check Pods Manifest.lock */,
 				AEBDB541221548A400241E6C /* Sources */,
 				AEBDB542221548A400241E6C /* Frameworks */,
 				AEBDB543221548A400241E6C /* Resources */,
@@ -408,9 +773,39 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEA57C1A222E3A0000F334B4 /* AViewController.xib in Resources */,
+				AEA57BEE222E3A0000F334B4 /* x1.png in Resources */,
+				AEA57BF0222E3A0000F334B4 /* x0.png in Resources */,
+				AEA57BF4222E3A0000F334B4 /* x5.png in Resources */,
+				AEA57C02222E3A0000F334B4 /* ButtonOutline@2x.png in Resources */,
+				AEA57C21222E3A0000F334B4 /* MotionEffectsViewController.xib in Resources */,
+				AEA57BED222E3A0000F334B4 /* x3.png in Resources */,
+				AEA57BFE222E3A0000F334B4 /* bg.jpeg in Resources */,
+				AEA57BFB222E3A0000F334B4 /* octocat-shadow.png in Resources */,
+				AEA57BF3222E3A0000F334B4 /* Origin@2x.png in Resources */,
 				AEBDB555221548A500241E6C /* LaunchScreen.storyboard in Resources */,
+				AEA57C01222E3A0000F334B4 /* Box2@2x.png in Resources */,
+				AEA57BEF222E3A0000F334B4 /* BackgroundTile@2x.png in Resources */,
 				AEBDB552221548A500241E6C /* Assets.xcassets in Resources */,
+				AEA57BF1222E3A0000F334B4 /* x4.png in Resources */,
+				AEA57BFC222E3A0000F334B4 /* yurt2.png in Resources */,
+				AEA57C04222E3A0000F334B4 /* ViewController.xib in Resources */,
+				AEA57C03222E3A0000F334B4 /* AttachmentPoint_Mask@2x.png in Resources */,
+				AEA57BFD222E3A0000F334B4 /* octocat.png in Resources */,
+				AEA57BFA222E3A0000F334B4 /* yurt1.png in Resources */,
+				AEA57C1C222E3A0000F334B4 /* BViewController.xib in Resources */,
+				AEA57BF9222E3A0000F334B4 /* ship.png in Resources */,
+				AEA57BF8222E3A0000F334B4 /* ship-shadow.png in Resources */,
+				AEA57C26222E3AE400F334B4 /* DelayOperationViewController.xib in Resources */,
 				AEBDB550221548A400241E6C /* Main.storyboard in Resources */,
+				AEA57BF2222E3A0000F334B4 /* Box1@2x.png in Resources */,
+				AEA57C08222E3A0000F334B4 /* NNTransitionViewController.xib in Resources */,
+				AEA57BF7222E3A0000F334B4 /* Floor@2x.png in Resources */,
+				AEA57BFF222E3A0000F334B4 /* text.png in Resources */,
+				AEA57BEC222E3A0000F334B4 /* x2.png in Resources */,
+				AEA57C00222E3A0000F334B4 /* blackhole.png in Resources */,
+				AEA57BF6222E3A0000F334B4 /* githubhead1.jpeg in Resources */,
+				AEA57BF5222E3A0000F334B4 /* Arrow@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +825,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		F2D064EFB41AF8A9C482F332 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NNEasyKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AEBDB541221548A400241E6C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -437,28 +857,54 @@
 			files = (
 				AEBDB68422155E9200241E6C /* UIColor+NNExtension.m in Sources */,
 				AEBDB68522155E9200241E6C /* UITableView+NNExtension.m in Sources */,
+				AEA57C13222E3A0000F334B4 /* NNSwipeInteractionTransition.m in Sources */,
+				AEA57C17222E3A0000F334B4 /* UIKitDynamicsVC.m in Sources */,
 				AEBDB67522155E9200241E6C /* NNPFSLabel.m in Sources */,
 				AEBDB67F22155E9200241E6C /* NSString+NNExtension.m in Sources */,
 				AEBDB68022155E9200241E6C /* UICollectionView+NNExtension.m in Sources */,
+				AEA57C11222E3A0000F334B4 /* NNAnimationTransition.m in Sources */,
+				AEA57C09222E3A0000F334B4 /* NNTransitionViewController.m in Sources */,
+				AEA57C1E222E3A0000F334B4 /* PresentTransition.m in Sources */,
+				AEA57C20222E3A0000F334B4 /* MotionEffectsViewController.m in Sources */,
 				AEBDB67622155E9200241E6C /* CADisplayLink+NNExtension.m in Sources */,
 				AEBDB54D221548A400241E6C /* ViewController.m in Sources */,
+				AEA57C12222E3A0000F334B4 /* NNFlipAnimationTransition.m in Sources */,
 				AEBDB558221548A500241E6C /* main.m in Sources */,
+				AEA57C1F222E3A0000F334B4 /* CoreAnimationVC.m in Sources */,
 				AEBDB68222155E9200241E6C /* UIImage+NNExtension.m in Sources */,
+				AEA57C1B222E3A0000F334B4 /* InteractiveTransition.m in Sources */,
 				AE8A5C35221C01160057683B /* NNCarousel.m in Sources */,
+				AEA57C0E222E3A0000F334B4 /* NNSpreadAnimationTransition.m in Sources */,
+				AEA57C10222E3A0000F334B4 /* NNPortalAnimationTransition.m in Sources */,
 				AEBDB68622155E9200241E6C /* UIAlertController+NNExtension.m in Sources */,
 				AEBDB67D22155E9200241E6C /* UIFont+NNExtension.m in Sources */,
 				AEBDB68322155E9200241E6C /* NSTimer+NNExtension.m in Sources */,
 				AEBDB67E22155E9200241E6C /* UIView+NNExtension.m in Sources */,
+				AEA57C0B222E3A0000F334B4 /* NNEasyAnimatedTransition.m in Sources */,
 				AEBDB67A22155E9200241E6C /* NNAlertView.m in Sources */,
+				AEA57C0D222E3A0000F334B4 /* NNExplodeAnimationTransition.m in Sources */,
+				AEA57C07222E3A0000F334B4 /* Test1ViewController.m in Sources */,
+				AEA57C0A222E3A0000F334B4 /* UIViewController+NNTransition.m in Sources */,
+				AEA57C0C222E3A0000F334B4 /* NNCircleSpreadAnimationTransition.m in Sources */,
 				AEBDB67722155E9200241E6C /* NNGCDTimer.m in Sources */,
+				AEA57C19222E3A0000F334B4 /* NavigationTransition.m in Sources */,
 				AEBDB67C22155E9200241E6C /* NSObject+NNExtension.m in Sources */,
 				AEBDB67822155E9200241E6C /* NNPinYin.m in Sources */,
 				AEBDB68722155E9200241E6C /* UIControl+NNExtension.m in Sources */,
+				AEA57C14222E3A0000F334B4 /* NNHorizontalSwipeInteractionTransition.m in Sources */,
+				AEA57C0F222E3A0000F334B4 /* NNScaleAnimationTransition.m in Sources */,
+				AEA57C06222E3A0000F334B4 /* UIImage+NNExtension.m in Sources */,
 				AEBDB67922155E9200241E6C /* NNNormalAlertView.m in Sources */,
 				AEBDB67B22155E9200241E6C /* NNGlobalHelper.m in Sources */,
+				AEA57C18222E3A0000F334B4 /* AViewController.m in Sources */,
+				AEA57C27222E3AE400F334B4 /* DelayOperationViewController.m in Sources */,
+				AEA57C15222E3A0000F334B4 /* NNInteractionTransition.m in Sources */,
 				AEBDB54A221548A400241E6C /* AppDelegate.m in Sources */,
+				AEA57C1D222E3A0000F334B4 /* BViewController.m in Sources */,
 				AEBDB68122155E9200241E6C /* UIGestureRecognizer+NNExtension.m in Sources */,
+				AEA57C16222E3A0000F334B4 /* UIViewAnimationVC.m in Sources */,
 				AE8A5C34221C01160057683B /* NNCarouselLayout.m in Sources */,
+				AEA57C05222E3A0000F334B4 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,11 +1073,13 @@
 		};
 		AEBDB572221548A500241E6C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAAD2B5082AD704F677D7D93 /* Pods-NNEasyKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97ZDU8T5WN;
 				INFOPLIST_FILE = NNEasyKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -644,11 +1092,13 @@
 		};
 		AEBDB573221548A500241E6C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3ABF50F3C5FE4453D50D873 /* Pods-NNEasyKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97ZDU8T5WN;
 				INFOPLIST_FILE = NNEasyKit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
