@@ -115,7 +115,7 @@ UICollectionViewDelegateFlowLayout>
 
 - (void)_initializeSetup {
     _didReloadData = NO;
-    _autoScrollInterval = 0;
+    _autoScrollInterval = 3.0;
     _infiniteLoop = NO;
     _firstItem = -1;
     _carouselScrollDirection = UICollectionViewScrollDirectionHorizontal;
