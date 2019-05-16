@@ -15,6 +15,9 @@
 		AE176271228D423800D01C61 /* NNNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AE17626E228D423800D01C61 /* NNNetworkRequest.m */; };
 		AE176275228D45A200D01C61 /* NNCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE176274228D45A200D01C61 /* NNCarousel.m */; };
 		AE176278228D45E500D01C61 /* NNCarouselLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AE176277228D45E500D01C61 /* NNCarouselLayout.m */; };
+		AE481550228DA9A90051F2BF /* UIBarButtonItem+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE48154F228DA9A80051F2BF /* UIBarButtonItem+NNExtension.m */; };
+		AE481554228DAAAB0051F2BF /* NNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE481553228DAAAB0051F2BF /* NNNavigationController.m */; };
+		AE481557228DAAE90051F2BF /* NNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE481556228DAAE90051F2BF /* NNBaseViewController.m */; };
 		AEA57C26222E3AE400F334B4 /* DelayOperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA57C23222E3AE400F334B4 /* DelayOperationViewController.xib */; };
 		AEA57C27222E3AE400F334B4 /* DelayOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA57C25222E3AE400F334B4 /* DelayOperationViewController.m */; };
 		AEBDB54A221548A400241E6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB549221548A400241E6C /* AppDelegate.m */; };
@@ -78,6 +81,13 @@
 		AE176274228D45A200D01C61 /* NNCarousel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNCarousel.m; sourceTree = "<group>"; };
 		AE176276228D45E500D01C61 /* NNCarouselLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNCarouselLayout.h; sourceTree = "<group>"; };
 		AE176277228D45E500D01C61 /* NNCarouselLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNCarouselLayout.m; sourceTree = "<group>"; };
+		AE48154E228DA9A80051F2BF /* UIBarButtonItem+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+NNExtension.h"; sourceTree = "<group>"; };
+		AE48154F228DA9A80051F2BF /* UIBarButtonItem+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+NNExtension.m"; sourceTree = "<group>"; };
+		AE481552228DAAAB0051F2BF /* NNNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNNavigationController.h; sourceTree = "<group>"; };
+		AE481553228DAAAB0051F2BF /* NNNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNNavigationController.m; sourceTree = "<group>"; };
+		AE481555228DAAE90051F2BF /* NNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNBaseViewController.h; sourceTree = "<group>"; };
+		AE481556228DAAE90051F2BF /* NNBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNBaseViewController.m; sourceTree = "<group>"; };
+		AE481558228DABC40051F2BF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		AEA57C23222E3AE400F334B4 /* DelayOperationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DelayOperationViewController.xib; sourceTree = "<group>"; };
 		AEA57C24222E3AE400F334B4 /* DelayOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DelayOperationViewController.h; sourceTree = "<group>"; };
 		AEA57C25222E3AE400F334B4 /* DelayOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DelayOperationViewController.m; sourceTree = "<group>"; };
@@ -213,6 +223,17 @@
 			path = NNCarousel;
 			sourceTree = "<group>";
 		};
+		AE481551228DAA780051F2BF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				AE481552228DAAAB0051F2BF /* NNNavigationController.h */,
+				AE481553228DAAAB0051F2BF /* NNNavigationController.m */,
+				AE481555228DAAE90051F2BF /* NNBaseViewController.h */,
+				AE481556228DAAE90051F2BF /* NNBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		AEA57C22222E3ACC00F334B4 /* DelayOperation */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,6 +267,7 @@
 		AEBDB547221548A400241E6C /* NNEasyKit */ = {
 			isa = PBXGroup;
 			children = (
+				AE481551228DAA780051F2BF /* Base */,
 				AEA57C22222E3ACC00F334B4 /* DelayOperation */,
 				AEBDB64622155E9200241E6C /* NNEasyKit */,
 				AEBDB548221548A400241E6C /* AppDelegate.h */,
@@ -257,6 +279,7 @@
 				AEBDB553221548A500241E6C /* LaunchScreen.storyboard */,
 				AEBDB556221548A500241E6C /* Info.plist */,
 				AEBDB557221548A500241E6C /* main.m */,
+				AE481558228DABC40051F2BF /* PrefixHeader.pch */,
 			);
 			path = NNEasyKit;
 			sourceTree = "<group>";
@@ -340,6 +363,8 @@
 				AEBDB66D22155E9200241E6C /* NSTimer+NNExtension.m */,
 				AEBDB66522155E9200241E6C /* UIAlertController+NNExtension.h */,
 				AEBDB67022155E9200241E6C /* UIAlertController+NNExtension.m */,
+				AE48154E228DA9A80051F2BF /* UIBarButtonItem+NNExtension.h */,
+				AE48154F228DA9A80051F2BF /* UIBarButtonItem+NNExtension.m */,
 				AEBDB67122155E9200241E6C /* UICollectionView+NNExtension.h */,
 				AEBDB66422155E9200241E6C /* UICollectionView+NNExtension.m */,
 				AEBDB65F22155E9200241E6C /* UIColor+NNExtension.h */,
@@ -528,6 +553,7 @@
 				AEBDB68422155E9200241E6C /* UIColor+NNExtension.m in Sources */,
 				AEBDB68522155E9200241E6C /* UITableView+NNExtension.m in Sources */,
 				AE176267228D415B00D01C61 /* NNParallaxView.m in Sources */,
+				AE481554228DAAAB0051F2BF /* NNNavigationController.m in Sources */,
 				AEBDB67522155E9200241E6C /* NNPFSLabel.m in Sources */,
 				AEBDB67F22155E9200241E6C /* NSString+NNExtension.m in Sources */,
 				AEBDB68022155E9200241E6C /* UICollectionView+NNExtension.m in Sources */,
@@ -554,7 +580,9 @@
 				AE176271228D423800D01C61 /* NNNetworkRequest.m in Sources */,
 				AE176275228D45A200D01C61 /* NNCarousel.m in Sources */,
 				AEBDB54A221548A400241E6C /* AppDelegate.m in Sources */,
+				AE481550228DA9A90051F2BF /* UIBarButtonItem+NNExtension.m in Sources */,
 				AEBDB68122155E9200241E6C /* UIGestureRecognizer+NNExtension.m in Sources */,
+				AE481557228DAAE90051F2BF /* NNBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -648,6 +676,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NNProject/GlobalDefine/PrefixHeader.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -705,6 +734,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NNProject/GlobalDefine/PrefixHeader.pch";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -726,6 +756,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97ZDU8T5WN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NNEasyKit/PrefixHeader.pch";
 				INFOPLIST_FILE = NNEasyKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -745,6 +776,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 97ZDU8T5WN;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/NNEasyKit/PrefixHeader.pch";
 				INFOPLIST_FILE = NNEasyKit/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (

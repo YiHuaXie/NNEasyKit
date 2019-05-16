@@ -72,8 +72,6 @@
     return [emailTest evaluateWithObject:self];
 }
 
-#pragma mark - Height
-
 + (NSString *)nn_stringWithStrings:(NSArray<NSString *> *)strings
                     joinedByString:(NSString *)joinedByString {
     NSMutableArray *tmp = [NSMutableArray array];
@@ -83,6 +81,23 @@
     
     return [tmp componentsJoinedByString:joinedByString];
 }
+
+#pragma mark - Width
+
++ (CGFloat)nn_widthWithString:(NSString *)string
+                    maxHeight:(CGFloat)maxHeight
+                   attributes:(NSDictionary *)attributes {
+    if (!string.length) return 0.0;
+    
+    CGFloat width = [string boundingRectWithSize:CGSizeMake(MAXFLOAT, maxHeight)
+                                              options:NSStringDrawingUsesFontLeading | NSStringDrawingUsesLineFragmentOrigin
+                                           attributes:attributes
+                                              context:nil].size.width;
+    
+    return width;
+}
+
+#pragma mark - Height
 
 + (CGFloat)nn_heightWithAttributedString:(NSAttributedString *)attributedString
                                 maxWidth:(CGFloat)maxWidth {
