@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-#define NotificationCenterDefault    [NSNotificationCenter defaultCenter]
+typedef NSString *const ConstString;
 
 #pragma mark - Typedef Block
 
@@ -52,24 +52,24 @@ NSString* nn_appBuildVersion(void);
 #pragma mark - Notification
 
 static inline void nn_notificationAdd(id anObserver, SEL aSEL, NSString *notiName, id anObj) {
-    [NotificationCenterDefault addObserver:anObserver selector:aSEL name:notiName object:anObj];
+    [[NSNotificationCenter defaultCenter] addObserver:anObserver selector:aSEL name:notiName object:anObj];
 }
 
 static inline void nn_notificationRemoveObserver(id anObserver) {
-    [NotificationCenterDefault removeObserver:anObserver];
+    [[NSNotificationCenter defaultCenter] removeObserver:anObserver];
 }
 
 static inline void nn_notificationRemove(id anObserver, NSString *notiName, id anObj) {
-    [NotificationCenterDefault removeObserver:anObserver name:notiName object:anObj];
+    [[NSNotificationCenter defaultCenter] removeObserver:anObserver name:notiName object:anObj];
 }
 
 static inline void nn_notificationPost(NSString *notifName, id anObj, id anUserInfo) {
-    [NotificationCenterDefault postNotificationName:notifName object:anObj userInfo:anUserInfo];
+    [[NSNotificationCenter defaultCenter] postNotificationName:notifName object:anObj userInfo:anUserInfo];
 }
 
 static inline void nn_notificationPostOnMainThread(NSString *notifName, id anObj, id anUserInfo) {
     dispatch_async(dispatch_get_main_queue(), ^{
-        [NotificationCenterDefault postNotificationName:notifName object:anObj userInfo:anUserInfo];
+        [[NSNotificationCenter defaultCenter] postNotificationName:notifName object:anObj userInfo:anUserInfo];
     });
 }
 
