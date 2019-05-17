@@ -8,6 +8,7 @@ platform :ios, '8.0'
 target 'NNEasyKit' do
 
 pod 'AFNetworking'
+pod 'Masonry'
 
 end
 

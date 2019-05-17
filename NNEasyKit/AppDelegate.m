@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "NNNavigationController.h"
+#import "EntranceViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,6 +18,12 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[NNNavigationController alloc] initWithRootViewController:[EntranceViewController new]];
+    [self.window makeKeyAndVisible];
+    
+    return YES;
     
     return YES;
 }

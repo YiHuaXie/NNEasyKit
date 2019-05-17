@@ -479,6 +479,10 @@ UICollectionViewDelegateFlowLayout>
     }
 }
 
+- (void)scrollViewDidEndScrollingAnimation:(UIScrollView *)scrollView {
+    [self _carouselIfNeed];
+}
+
 #pragma mark - Helper
 
 - (NNIndexPath)_nearlyIndexPathForCurrentIndexPath:(NNIndexPath)indexPath
