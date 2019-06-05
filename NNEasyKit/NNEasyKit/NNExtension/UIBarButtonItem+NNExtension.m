@@ -9,6 +9,8 @@
 #import "UIBarButtonItem+NNExtension.h"
 #import "NSString+NNExtension.h"
 #import "UIControl+NNExtension.h"
+#import "UIFont+NNExtension.h"
+#import "UIView+NNExtension.h"
 
 static CGFloat kButtonSize = 24.0;
 
@@ -50,7 +52,7 @@ static CGFloat kButtonSize = 24.0;
     }
     
     [button sizeToFit];
-    button.height = kButtonSize;
+    button.nn_height = kButtonSize;
     
     if (image && ![title nn_isNotNilOrBlank]) {
         button.frame = CGRectMake(0, 0, kButtonSize, kButtonSize);

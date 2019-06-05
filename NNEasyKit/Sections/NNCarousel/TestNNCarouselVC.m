@@ -9,6 +9,7 @@
 #import "TestNNCarouselVC.h"
 #import "NNCarousel.h"
 #import "NNCarouselCell.h"
+#import "NNEasyKit.h"
 
 @interface TestNNCarouselVC () <NNCarouselDataSource, NNCarouselDelegate>
 

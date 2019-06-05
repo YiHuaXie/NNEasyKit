@@ -7,6 +7,7 @@
 //
 
 #import "NNBaseViewController.h"
+#import "NNEasyKit.h"
 
 @interface NNBaseViewController ()
 

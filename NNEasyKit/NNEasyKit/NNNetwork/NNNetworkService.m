@@ -8,7 +8,6 @@
 
 #import "NNNetworkService.h"
 #import <objc/message.h>
-#import "AFNetworkReachabilityManager.h"
 #import "NNNetworkRequest.h"
 #import "NNNetworkResponse.h"
 

@@ -8,6 +8,8 @@
 
 #import "TestNNAlertViewVC.h"
 #import "CustomView.h"
+#import "NNEasyKit.h"
+#import "NNNormalAlertView.h"
 
 @interface TestNNAlertViewVC () <UITableViewDataSource, UITableViewDelegate>
 

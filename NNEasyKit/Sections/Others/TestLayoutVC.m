@@ -8,6 +8,7 @@
 
 #import "TestLayoutVC.h"
 #import "NNLabelStyleLayout.h"
+#import "NNEasyKit.h"
 
 static ConstString kContentLabel = @"ContentLabel";
 

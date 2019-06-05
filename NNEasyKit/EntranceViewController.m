@@ -7,6 +7,7 @@
 //
 
 #import "EntranceViewController.h"
+#import "NNEasyKit.h"
 
 static ConstString kTitle = @"title";
 static ConstString kPage = @"page";

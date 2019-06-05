@@ -8,6 +8,7 @@
 
 #import "TestNNParallaxVC.h"
 #import "NNParallaxView.h"
+#import "NNEasyKit.h"
 
 @interface TestNNParallaxVC ()
 

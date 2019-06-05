@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NNEasyKit"
-  s.version      = "0.0.1.7"
+  s.version      = "0.0.2"
   s.summary      = "快速开发OC项目的框架"
   s.description  = <<-DESC
   		   一个快速开发OC项目的框架，包括Extension、Network、Components
@@ -22,10 +22,15 @@ Pod::Spec.new do |s|
   s.frameworks 	 = 'Foundation', 'UIKit'
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
-  s.source_files  = "NNEasyKit/NNEasyKit/NNEasyKit.h"
+  # s.source_files  = "NNEasyKit/NNEasyKit/NNEasyKit.h"
   
   s.subspec 'NNExtension' do |ss|
     ss.source_files = 'NNEasyKit/NNEasyKit/NNExtension/*.{h,m}'
+  end
+
+  s.subspec 'NNNetwork' do |ss|
+    ss.dependency 'AFNetworking'
+    ss.source_files = 'NNEasyKit/NNEasyKit/NNNetwork/*.{h,m}'
   end
 
   s.subspec 'NNComponent' do |ss|
@@ -43,8 +48,8 @@ Pod::Spec.new do |s|
     end
     
     ss.subspec 'NNPinYin' do |sss|
-      sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNPinYin/*.{h,m}'
       sss.dependency 'NNEasyKit/NNExtension'
+      sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNPinYin/*.{h,m}'
     end
 
     ss.subspec 'NNCarousel' do |sss|

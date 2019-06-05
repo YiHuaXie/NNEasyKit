@@ -9,8 +9,8 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-#import "NNEasyKit.h"
-#import "NNNormalAlertView.h"
+//#import "NNEasyKit.h"
+//#import "NNNormalAlertView.h"
 
 #import "Masonry.h"
 
