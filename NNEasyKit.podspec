@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "NNEasyKit"
-  s.version      = "0.0.2.1"
+  s.version      = "0.0.3"
   s.summary      = "快速开发OC项目的框架"
   s.description  = <<-DESC
   		   一个快速开发OC项目的框架，包括Extension、Network、Components
@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
   s.frameworks 	 = 'Foundation', 'UIKit'
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
+  s.public_header_files = 'NNEasyKit/NNEasyKit.h'
   # s.source_files  = "NNEasyKit/NNEasyKit/NNEasyKit.h"
   
   s.subspec 'NNExtension' do |ss|
@@ -65,4 +66,4 @@ end
 
 # 本地验证 pod lib lint --use-libraries --allow-warnings --verbose
 # 共有验证 pod spec lint NNEasyKit.podspec --use-libraries --allow-warnings --verbose
-# 推送远程 pod trunk push NNEasyKit.podspec --use-libraries --allow-warnings --verbose
+# 推送远程 pod trunk push NNEasyKit.podspec --use-libraries --allow-warnings
