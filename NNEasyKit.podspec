@@ -30,32 +30,38 @@ Pod::Spec.new do |s|
 
   s.subspec 'NNNetwork' do |ss|
     ss.dependency 'AFNetworking'
+    ss.dependency 'NNEasyKit/NNExtension'
     ss.source_files = 'NNEasyKit/NNEasyKit/NNNetwork/*.{h,m}'
   end
 
   s.subspec 'NNComponent' do |ss|
+    ss.dependency 'NNEasyKit/NNExtension'
+    ss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/**/*.{h,m}'
 
-    ss.subspec 'NNAlertView' do |sss|
-      sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNAlertView/*.{h,m}'
-    end
+    # ss.subspec 'NNAlertView' do |sss|
+      #sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNAlertView/*.{h,m}'
+    #end
     
-    ss.subspec 'NNGCDTimer' do |sss|
-      sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNGCDTimer/*.{h,m}'
-    end
+    #ss.subspec 'NNGCDTimer' do |sss|
+      #sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNGCDTimer/*.{h,m}'
+    #end
     
-    ss.subspec 'NNPFSLabel' do |sss|
-      sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNPFSLabel/*.{h,m}'
-    end
+    #ss.subspec 'NNPFSLabel' do |sss|
+      #sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNPFSLabel/*.{h,m}'
+    #end
     
-    ss.subspec 'NNPinYin' do |sss|
-      sss.dependency 'NNEasyKit/NNExtension'
-      sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNPinYin/*.{h,m}'
-    end
+    #ss.subspec 'NNPinYin' do |sss|
+      #sss.dependency 'NNEasyKit/NNExtension'
+      #sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNPinYin/*.{h,m}'
+    #end
 
-    ss.subspec 'NNCarousel' do |sss|
-      sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNCarousel/*.{h,m}'
-    end
+    #ss.subspec 'NNCarousel' do |sss|
+      #sss.source_files = 'NNEasyKit/NNEasyKit/NNComponent/NNCarousel/*.{h,m}'
+    #end
 
   end
 
 end
+
+# 本地验证 pod lib lint --use-libraries --allow-warnings --verbose
+# 
