@@ -17,14 +17,33 @@
 		AE0C3BB3228E9652005F5DA6 /* TestNNParallaxVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3BB2228E9652005F5DA6 /* TestNNParallaxVC.m */; };
 		AE0C3BB7228E97AA005F5DA6 /* zaizai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0C3BB6228E97AA005F5DA6 /* zaizai.jpg */; };
 		AE0C3BBD228E9E76005F5DA6 /* TestLayoutVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3BBC228E9E76005F5DA6 /* TestLayoutVC.m */; };
-		AE176256228D3EEB00D01C61 /* NNLabelStyleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AE176254228D3EEB00D01C61 /* NNLabelStyleLayout.m */; };
-		AE176267228D415B00D01C61 /* NNParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE176266228D415B00D01C61 /* NNParallaxView.m */; };
-		AE17626F228D423800D01C61 /* NNNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AE176269228D423800D01C61 /* NNNetworkResponse.m */; };
-		AE176270228D423800D01C61 /* NNNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = AE17626B228D423800D01C61 /* NNNetworkService.m */; };
-		AE176271228D423800D01C61 /* NNNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AE17626E228D423800D01C61 /* NNNetworkRequest.m */; };
-		AE176275228D45A200D01C61 /* NNCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE176274228D45A200D01C61 /* NNCarousel.m */; };
-		AE176278228D45E500D01C61 /* NNCarouselLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AE176277228D45E500D01C61 /* NNCarouselLayout.m */; };
-		AE481550228DA9A90051F2BF /* UIBarButtonItem+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE48154F228DA9A80051F2BF /* UIBarButtonItem+NNExtension.m */; };
+		AE0C3C3022A75ACF005F5DA6 /* NNGlobalHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3BEF22A75ACF005F5DA6 /* NNGlobalHelper.m */; };
+		AE0C3C3122A75ACF005F5DA6 /* NSObject+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3BF122A75ACF005F5DA6 /* NSObject+NNExtension.m */; };
+		AE0C3C3222A75ACF005F5DA6 /* UIFont+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3BF222A75ACF005F5DA6 /* UIFont+NNExtension.m */; };
+		AE0C3C3322A75ACF005F5DA6 /* UIBarButtonItem+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3BF322A75ACF005F5DA6 /* UIBarButtonItem+NNExtension.m */; };
+		AE0C3C3422A75ACF005F5DA6 /* UIView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3BF522A75ACF005F5DA6 /* UIView+NNExtension.m */; };
+		AE0C3C3522A75ACF005F5DA6 /* NSString+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3BF922A75ACF005F5DA6 /* NSString+NNExtension.m */; };
+		AE0C3C3622A75ACF005F5DA6 /* UICollectionView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3BFB22A75ACF005F5DA6 /* UICollectionView+NNExtension.m */; };
+		AE0C3C3722A75ACF005F5DA6 /* UIGestureRecognizer+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3BFE22A75ACF005F5DA6 /* UIGestureRecognizer+NNExtension.m */; };
+		AE0C3C3822A75ACF005F5DA6 /* UIImage+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C0422A75ACF005F5DA6 /* UIImage+NNExtension.m */; };
+		AE0C3C3922A75ACF005F5DA6 /* NSTimer+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C0522A75ACF005F5DA6 /* NSTimer+NNExtension.m */; };
+		AE0C3C3A22A75ACF005F5DA6 /* UIColor+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C0622A75ACF005F5DA6 /* UIColor+NNExtension.m */; };
+		AE0C3C3B22A75ACF005F5DA6 /* UITableView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C0722A75ACF005F5DA6 /* UITableView+NNExtension.m */; };
+		AE0C3C3C22A75ACF005F5DA6 /* UIAlertController+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C0822A75ACF005F5DA6 /* UIAlertController+NNExtension.m */; };
+		AE0C3C3D22A75ACF005F5DA6 /* UIControl+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C0A22A75ACF005F5DA6 /* UIControl+NNExtension.m */; };
+		AE0C3C3E22A75ACF005F5DA6 /* NNPFSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C0F22A75ACF005F5DA6 /* NNPFSLabel.m */; };
+		AE0C3C3F22A75ACF005F5DA6 /* CADisplayLink+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C1022A75ACF005F5DA6 /* CADisplayLink+NNExtension.m */; };
+		AE0C3C4022A75ACF005F5DA6 /* NNGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C1322A75ACF005F5DA6 /* NNGCDTimer.m */; };
+		AE0C3C4122A75ACF005F5DA6 /* NNPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C1722A75ACF005F5DA6 /* NNPinYin.m */; };
+		AE0C3C4222A75ACF005F5DA6 /* NNCarouselLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C1922A75ACF005F5DA6 /* NNCarouselLayout.m */; };
+		AE0C3C4322A75ACF005F5DA6 /* NNCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C1A22A75ACF005F5DA6 /* NNCarousel.m */; };
+		AE0C3C4422A75ACF005F5DA6 /* NNNormalAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C1E22A75ACF005F5DA6 /* NNNormalAlertView.m */; };
+		AE0C3C4522A75ACF005F5DA6 /* NNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C2122A75ACF005F5DA6 /* NNAlertView.m */; };
+		AE0C3C4622A75ACF005F5DA6 /* NNLabelStyleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C2322A75ACF005F5DA6 /* NNLabelStyleLayout.m */; };
+		AE0C3C4722A75ACF005F5DA6 /* NNParallaxView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C2622A75ACF005F5DA6 /* NNParallaxView.m */; };
+		AE0C3C4822A75ACF005F5DA6 /* NNNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C2922A75ACF005F5DA6 /* NNNetworkResponse.m */; };
+		AE0C3C4922A75ACF005F5DA6 /* NNNetworkService.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C2B22A75ACF005F5DA6 /* NNNetworkService.m */; };
+		AE0C3C4A22A75ACF005F5DA6 /* NNNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0C3C2E22A75ACF005F5DA6 /* NNNetworkRequest.m */; };
 		AE481554228DAAAB0051F2BF /* NNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE481553228DAAAB0051F2BF /* NNNavigationController.m */; };
 		AE481557228DAAE90051F2BF /* NNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE481556228DAAE90051F2BF /* NNBaseViewController.m */; };
 		AEA57C26222E3AE400F334B4 /* DelayOperationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEA57C23222E3AE400F334B4 /* DelayOperationViewController.xib */; };
@@ -35,25 +54,6 @@
 		AEBDB552221548A500241E6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBDB551221548A500241E6C /* Assets.xcassets */; };
 		AEBDB555221548A500241E6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBDB553221548A500241E6C /* LaunchScreen.storyboard */; };
 		AEBDB558221548A500241E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB557221548A500241E6C /* main.m */; };
-		AEBDB67522155E9200241E6C /* NNPFSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB64A22155E9200241E6C /* NNPFSLabel.m */; };
-		AEBDB67622155E9200241E6C /* CADisplayLink+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB64B22155E9200241E6C /* CADisplayLink+NNExtension.m */; };
-		AEBDB67722155E9200241E6C /* NNGCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB64E22155E9200241E6C /* NNGCDTimer.m */; };
-		AEBDB67822155E9200241E6C /* NNPinYin.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65222155E9200241E6C /* NNPinYin.m */; };
-		AEBDB67922155E9200241E6C /* NNNormalAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65422155E9200241E6C /* NNNormalAlertView.m */; };
-		AEBDB67A22155E9200241E6C /* NNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65722155E9200241E6C /* NNAlertView.m */; };
-		AEBDB67B22155E9200241E6C /* NNGlobalHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65922155E9200241E6C /* NNGlobalHelper.m */; };
-		AEBDB67C22155E9200241E6C /* NSObject+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65B22155E9200241E6C /* NSObject+NNExtension.m */; };
-		AEBDB67D22155E9200241E6C /* UIFont+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65C22155E9200241E6C /* UIFont+NNExtension.m */; };
-		AEBDB67E22155E9200241E6C /* UIView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB65E22155E9200241E6C /* UIView+NNExtension.m */; };
-		AEBDB67F22155E9200241E6C /* NSString+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66222155E9200241E6C /* NSString+NNExtension.m */; };
-		AEBDB68022155E9200241E6C /* UICollectionView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66422155E9200241E6C /* UICollectionView+NNExtension.m */; };
-		AEBDB68122155E9200241E6C /* UIGestureRecognizer+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66722155E9200241E6C /* UIGestureRecognizer+NNExtension.m */; };
-		AEBDB68222155E9200241E6C /* UIImage+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66C22155E9200241E6C /* UIImage+NNExtension.m */; };
-		AEBDB68322155E9200241E6C /* NSTimer+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66D22155E9200241E6C /* NSTimer+NNExtension.m */; };
-		AEBDB68422155E9200241E6C /* UIColor+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66E22155E9200241E6C /* UIColor+NNExtension.m */; };
-		AEBDB68522155E9200241E6C /* UITableView+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB66F22155E9200241E6C /* UITableView+NNExtension.m */; };
-		AEBDB68622155E9200241E6C /* UIAlertController+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB67022155E9200241E6C /* UIAlertController+NNExtension.m */; };
-		AEBDB68722155E9200241E6C /* UIControl+NNExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBDB67222155E9200241E6C /* UIControl+NNExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,22 +92,62 @@
 		AE0C3BB6228E97AA005F5DA6 /* zaizai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zaizai.jpg; sourceTree = "<group>"; };
 		AE0C3BBB228E9E76005F5DA6 /* TestLayoutVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLayoutVC.h; sourceTree = "<group>"; };
 		AE0C3BBC228E9E76005F5DA6 /* TestLayoutVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLayoutVC.m; sourceTree = "<group>"; };
-		AE176254228D3EEB00D01C61 /* NNLabelStyleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNLabelStyleLayout.m; sourceTree = "<group>"; };
-		AE176255228D3EEB00D01C61 /* NNLabelStyleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNLabelStyleLayout.h; sourceTree = "<group>"; };
-		AE176265228D415B00D01C61 /* NNParallaxView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNParallaxView.h; sourceTree = "<group>"; };
-		AE176266228D415B00D01C61 /* NNParallaxView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNParallaxView.m; sourceTree = "<group>"; };
-		AE176269228D423800D01C61 /* NNNetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetworkResponse.m; sourceTree = "<group>"; };
-		AE17626A228D423800D01C61 /* NNNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetworkRequest.h; sourceTree = "<group>"; };
-		AE17626B228D423800D01C61 /* NNNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetworkService.m; sourceTree = "<group>"; };
-		AE17626C228D423800D01C61 /* NNNetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetworkResponse.h; sourceTree = "<group>"; };
-		AE17626D228D423800D01C61 /* NNNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetworkService.h; sourceTree = "<group>"; };
-		AE17626E228D423800D01C61 /* NNNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetworkRequest.m; sourceTree = "<group>"; };
-		AE176273228D45A200D01C61 /* NNCarousel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNCarousel.h; sourceTree = "<group>"; };
-		AE176274228D45A200D01C61 /* NNCarousel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNCarousel.m; sourceTree = "<group>"; };
-		AE176276228D45E500D01C61 /* NNCarouselLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNCarouselLayout.h; sourceTree = "<group>"; };
-		AE176277228D45E500D01C61 /* NNCarouselLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNCarouselLayout.m; sourceTree = "<group>"; };
-		AE48154E228DA9A80051F2BF /* UIBarButtonItem+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+NNExtension.h"; sourceTree = "<group>"; };
-		AE48154F228DA9A80051F2BF /* UIBarButtonItem+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3BEF22A75ACF005F5DA6 /* NNGlobalHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGlobalHelper.m; sourceTree = "<group>"; };
+		AE0C3BF022A75ACF005F5DA6 /* UIGestureRecognizer+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3BF122A75ACF005F5DA6 /* NSObject+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3BF222A75ACF005F5DA6 /* UIFont+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3BF322A75ACF005F5DA6 /* UIBarButtonItem+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3BF422A75ACF005F5DA6 /* NNDefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDefineMacro.h; sourceTree = "<group>"; };
+		AE0C3BF522A75ACF005F5DA6 /* UIView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3BF622A75ACF005F5DA6 /* UIColor+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3BF722A75ACF005F5DA6 /* NSTimer+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3BF822A75ACF005F5DA6 /* UIImage+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3BF922A75ACF005F5DA6 /* NSString+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3BFA22A75ACF005F5DA6 /* UIControl+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3BFB22A75ACF005F5DA6 /* UICollectionView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3BFC22A75ACF005F5DA6 /* UIAlertController+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3BFD22A75ACF005F5DA6 /* UITableView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3BFE22A75ACF005F5DA6 /* UIGestureRecognizer+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3BFF22A75ACF005F5DA6 /* NNGlobalHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGlobalHelper.h; sourceTree = "<group>"; };
+		AE0C3C0022A75ACF005F5DA6 /* UIView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3C0122A75ACF005F5DA6 /* UIBarButtonItem+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3C0222A75ACF005F5DA6 /* NSObject+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3C0322A75ACF005F5DA6 /* UIFont+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3C0422A75ACF005F5DA6 /* UIImage+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3C0522A75ACF005F5DA6 /* NSTimer+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3C0622A75ACF005F5DA6 /* UIColor+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3C0722A75ACF005F5DA6 /* UITableView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3C0822A75ACF005F5DA6 /* UIAlertController+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3C0922A75ACF005F5DA6 /* UICollectionView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3C0A22A75ACF005F5DA6 /* UIControl+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3C0B22A75ACF005F5DA6 /* NSString+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3C0E22A75ACF005F5DA6 /* CADisplayLink+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+NNExtension.h"; sourceTree = "<group>"; };
+		AE0C3C0F22A75ACF005F5DA6 /* NNPFSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPFSLabel.m; sourceTree = "<group>"; };
+		AE0C3C1022A75ACF005F5DA6 /* CADisplayLink+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+NNExtension.m"; sourceTree = "<group>"; };
+		AE0C3C1122A75ACF005F5DA6 /* NNPFSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPFSLabel.h; sourceTree = "<group>"; };
+		AE0C3C1322A75ACF005F5DA6 /* NNGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGCDTimer.m; sourceTree = "<group>"; };
+		AE0C3C1422A75ACF005F5DA6 /* NNGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGCDTimer.h; sourceTree = "<group>"; };
+		AE0C3C1622A75ACF005F5DA6 /* NNPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPinYin.h; sourceTree = "<group>"; };
+		AE0C3C1722A75ACF005F5DA6 /* NNPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPinYin.m; sourceTree = "<group>"; };
+		AE0C3C1922A75ACF005F5DA6 /* NNCarouselLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNCarouselLayout.m; sourceTree = "<group>"; };
+		AE0C3C1A22A75ACF005F5DA6 /* NNCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNCarousel.m; sourceTree = "<group>"; };
+		AE0C3C1B22A75ACF005F5DA6 /* NNCarouselLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCarouselLayout.h; sourceTree = "<group>"; };
+		AE0C3C1C22A75ACF005F5DA6 /* NNCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNCarousel.h; sourceTree = "<group>"; };
+		AE0C3C1E22A75ACF005F5DA6 /* NNNormalAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNormalAlertView.m; sourceTree = "<group>"; };
+		AE0C3C1F22A75ACF005F5DA6 /* NNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNAlertView.h; sourceTree = "<group>"; };
+		AE0C3C2022A75ACF005F5DA6 /* NNNormalAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNormalAlertView.h; sourceTree = "<group>"; };
+		AE0C3C2122A75ACF005F5DA6 /* NNAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNAlertView.m; sourceTree = "<group>"; };
+		AE0C3C2322A75ACF005F5DA6 /* NNLabelStyleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNLabelStyleLayout.m; sourceTree = "<group>"; };
+		AE0C3C2422A75ACF005F5DA6 /* NNLabelStyleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNLabelStyleLayout.h; sourceTree = "<group>"; };
+		AE0C3C2622A75ACF005F5DA6 /* NNParallaxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNParallaxView.m; sourceTree = "<group>"; };
+		AE0C3C2722A75ACF005F5DA6 /* NNParallaxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNParallaxView.h; sourceTree = "<group>"; };
+		AE0C3C2922A75ACF005F5DA6 /* NNNetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetworkResponse.m; sourceTree = "<group>"; };
+		AE0C3C2A22A75ACF005F5DA6 /* NNNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetworkRequest.h; sourceTree = "<group>"; };
+		AE0C3C2B22A75ACF005F5DA6 /* NNNetworkService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetworkService.m; sourceTree = "<group>"; };
+		AE0C3C2C22A75ACF005F5DA6 /* NNNetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetworkResponse.h; sourceTree = "<group>"; };
+		AE0C3C2D22A75ACF005F5DA6 /* NNNetworkService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNetworkService.h; sourceTree = "<group>"; };
+		AE0C3C2E22A75ACF005F5DA6 /* NNNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNetworkRequest.m; sourceTree = "<group>"; };
+		AE0C3C2F22A75ACF005F5DA6 /* NNEasyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNEasyKit.h; sourceTree = "<group>"; };
 		AE481552228DAAAB0051F2BF /* NNNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NNNavigationController.h; sourceTree = "<group>"; };
 		AE481553228DAAAB0051F2BF /* NNNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NNNavigationController.m; sourceTree = "<group>"; };
 		AE481555228DAAE90051F2BF /* NNBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNBaseViewController.h; sourceTree = "<group>"; };
@@ -128,46 +168,6 @@
 		AEBDB557221548A500241E6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEBDB55D221548A500241E6C /* NNEasyKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNEasyKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBDB568221548A500241E6C /* NNEasyKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NNEasyKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		AEBDB64922155E9200241E6C /* CADisplayLink+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CADisplayLink+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB64A22155E9200241E6C /* NNPFSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPFSLabel.m; sourceTree = "<group>"; };
-		AEBDB64B22155E9200241E6C /* CADisplayLink+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CADisplayLink+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB64C22155E9200241E6C /* NNPFSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPFSLabel.h; sourceTree = "<group>"; };
-		AEBDB64E22155E9200241E6C /* NNGCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGCDTimer.m; sourceTree = "<group>"; };
-		AEBDB64F22155E9200241E6C /* NNGCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGCDTimer.h; sourceTree = "<group>"; };
-		AEBDB65122155E9200241E6C /* NNPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNPinYin.h; sourceTree = "<group>"; };
-		AEBDB65222155E9200241E6C /* NNPinYin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNPinYin.m; sourceTree = "<group>"; };
-		AEBDB65422155E9200241E6C /* NNNormalAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNNormalAlertView.m; sourceTree = "<group>"; };
-		AEBDB65522155E9200241E6C /* NNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNAlertView.h; sourceTree = "<group>"; };
-		AEBDB65622155E9200241E6C /* NNNormalAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNNormalAlertView.h; sourceTree = "<group>"; };
-		AEBDB65722155E9200241E6C /* NNAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNAlertView.m; sourceTree = "<group>"; };
-		AEBDB65922155E9200241E6C /* NNGlobalHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NNGlobalHelper.m; sourceTree = "<group>"; };
-		AEBDB65A22155E9200241E6C /* UIGestureRecognizer+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB65B22155E9200241E6C /* NSObject+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB65C22155E9200241E6C /* UIFont+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB65D22155E9200241E6C /* NNDefineMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNDefineMacro.h; sourceTree = "<group>"; };
-		AEBDB65E22155E9200241E6C /* UIView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB65F22155E9200241E6C /* UIColor+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB66022155E9200241E6C /* NSTimer+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB66122155E9200241E6C /* UIImage+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB66222155E9200241E6C /* NSString+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB66322155E9200241E6C /* UIControl+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIControl+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB66422155E9200241E6C /* UICollectionView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UICollectionView+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB66522155E9200241E6C /* UIAlertController+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB66622155E9200241E6C /* UITableView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB66722155E9200241E6C /* UIGestureRecognizer+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB66822155E9200241E6C /* NNGlobalHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNGlobalHelper.h; sourceTree = "<group>"; };
-		AEBDB66922155E9200241E6C /* UIView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB66A22155E9200241E6C /* NSObject+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB66B22155E9200241E6C /* UIFont+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB66C22155E9200241E6C /* UIImage+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB66D22155E9200241E6C /* NSTimer+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB66E22155E9200241E6C /* UIColor+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB66F22155E9200241E6C /* UITableView+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB67022155E9200241E6C /* UIAlertController+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB67122155E9200241E6C /* UICollectionView+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UICollectionView+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB67222155E9200241E6C /* UIControl+NNExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIControl+NNExtension.m"; sourceTree = "<group>"; };
-		AEBDB67322155E9200241E6C /* NSString+NNExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NNExtension.h"; sourceTree = "<group>"; };
-		AEBDB67422155E9200241E6C /* NNEasyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NNEasyKit.h; sourceTree = "<group>"; };
 		CCBF7F959F9C6F35F4CBB1D2 /* Pods-NNEasyKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NNEasyKit.debug.xcconfig"; path = "Target Support Files/Pods-NNEasyKit/Pods-NNEasyKit.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -258,46 +258,147 @@
 			path = Resource;
 			sourceTree = "<group>";
 		};
-		AE176253228D3EEB00D01C61 /* NNLabelStyleLayout */ = {
+		AE0C3BED22A75ACF005F5DA6 /* NNEasyKit */ = {
 			isa = PBXGroup;
 			children = (
-				AE176255228D3EEB00D01C61 /* NNLabelStyleLayout.h */,
-				AE176254228D3EEB00D01C61 /* NNLabelStyleLayout.m */,
+				AE0C3C0C22A75ACF005F5DA6 /* NNComponent */,
+				AE0C3C2F22A75ACF005F5DA6 /* NNEasyKit.h */,
+				AE0C3BEE22A75ACF005F5DA6 /* NNExtension */,
+				AE0C3C2822A75ACF005F5DA6 /* NNNetwork */,
+			);
+			path = NNEasyKit;
+			sourceTree = "<group>";
+		};
+		AE0C3BEE22A75ACF005F5DA6 /* NNExtension */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C3BF422A75ACF005F5DA6 /* NNDefineMacro.h */,
+				AE0C3BFF22A75ACF005F5DA6 /* NNGlobalHelper.h */,
+				AE0C3BEF22A75ACF005F5DA6 /* NNGlobalHelper.m */,
+				AE0C3C0222A75ACF005F5DA6 /* NSObject+NNExtension.h */,
+				AE0C3BF122A75ACF005F5DA6 /* NSObject+NNExtension.m */,
+				AE0C3C0B22A75ACF005F5DA6 /* NSString+NNExtension.h */,
+				AE0C3BF922A75ACF005F5DA6 /* NSString+NNExtension.m */,
+				AE0C3BF722A75ACF005F5DA6 /* NSTimer+NNExtension.h */,
+				AE0C3C0522A75ACF005F5DA6 /* NSTimer+NNExtension.m */,
+				AE0C3BFC22A75ACF005F5DA6 /* UIAlertController+NNExtension.h */,
+				AE0C3C0822A75ACF005F5DA6 /* UIAlertController+NNExtension.m */,
+				AE0C3C0122A75ACF005F5DA6 /* UIBarButtonItem+NNExtension.h */,
+				AE0C3BF322A75ACF005F5DA6 /* UIBarButtonItem+NNExtension.m */,
+				AE0C3C0922A75ACF005F5DA6 /* UICollectionView+NNExtension.h */,
+				AE0C3BFB22A75ACF005F5DA6 /* UICollectionView+NNExtension.m */,
+				AE0C3BF622A75ACF005F5DA6 /* UIColor+NNExtension.h */,
+				AE0C3C0622A75ACF005F5DA6 /* UIColor+NNExtension.m */,
+				AE0C3BFA22A75ACF005F5DA6 /* UIControl+NNExtension.h */,
+				AE0C3C0A22A75ACF005F5DA6 /* UIControl+NNExtension.m */,
+				AE0C3C0322A75ACF005F5DA6 /* UIFont+NNExtension.h */,
+				AE0C3BF222A75ACF005F5DA6 /* UIFont+NNExtension.m */,
+				AE0C3BF022A75ACF005F5DA6 /* UIGestureRecognizer+NNExtension.h */,
+				AE0C3BFE22A75ACF005F5DA6 /* UIGestureRecognizer+NNExtension.m */,
+				AE0C3BF822A75ACF005F5DA6 /* UIImage+NNExtension.h */,
+				AE0C3C0422A75ACF005F5DA6 /* UIImage+NNExtension.m */,
+				AE0C3BFD22A75ACF005F5DA6 /* UITableView+NNExtension.h */,
+				AE0C3C0722A75ACF005F5DA6 /* UITableView+NNExtension.m */,
+				AE0C3C0022A75ACF005F5DA6 /* UIView+NNExtension.h */,
+				AE0C3BF522A75ACF005F5DA6 /* UIView+NNExtension.m */,
+			);
+			path = NNExtension;
+			sourceTree = "<group>";
+		};
+		AE0C3C0C22A75ACF005F5DA6 /* NNComponent */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C3C1D22A75ACF005F5DA6 /* NNAlertView */,
+				AE0C3C1822A75ACF005F5DA6 /* NNCarousel */,
+				AE0C3C1222A75ACF005F5DA6 /* NNGCDTimer */,
+				AE0C3C2222A75ACF005F5DA6 /* NNLabelStyleLayout */,
+				AE0C3C2522A75ACF005F5DA6 /* NNParallaxView */,
+				AE0C3C0D22A75ACF005F5DA6 /* NNPFSLabel */,
+				AE0C3C1522A75ACF005F5DA6 /* NNPinYin */,
+			);
+			path = NNComponent;
+			sourceTree = "<group>";
+		};
+		AE0C3C0D22A75ACF005F5DA6 /* NNPFSLabel */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C3C0E22A75ACF005F5DA6 /* CADisplayLink+NNExtension.h */,
+				AE0C3C1022A75ACF005F5DA6 /* CADisplayLink+NNExtension.m */,
+				AE0C3C1122A75ACF005F5DA6 /* NNPFSLabel.h */,
+				AE0C3C0F22A75ACF005F5DA6 /* NNPFSLabel.m */,
+			);
+			path = NNPFSLabel;
+			sourceTree = "<group>";
+		};
+		AE0C3C1222A75ACF005F5DA6 /* NNGCDTimer */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C3C1422A75ACF005F5DA6 /* NNGCDTimer.h */,
+				AE0C3C1322A75ACF005F5DA6 /* NNGCDTimer.m */,
+			);
+			path = NNGCDTimer;
+			sourceTree = "<group>";
+		};
+		AE0C3C1522A75ACF005F5DA6 /* NNPinYin */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C3C1622A75ACF005F5DA6 /* NNPinYin.h */,
+				AE0C3C1722A75ACF005F5DA6 /* NNPinYin.m */,
+			);
+			path = NNPinYin;
+			sourceTree = "<group>";
+		};
+		AE0C3C1822A75ACF005F5DA6 /* NNCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C3C1C22A75ACF005F5DA6 /* NNCarousel.h */,
+				AE0C3C1A22A75ACF005F5DA6 /* NNCarousel.m */,
+				AE0C3C1B22A75ACF005F5DA6 /* NNCarouselLayout.h */,
+				AE0C3C1922A75ACF005F5DA6 /* NNCarouselLayout.m */,
+			);
+			path = NNCarousel;
+			sourceTree = "<group>";
+		};
+		AE0C3C1D22A75ACF005F5DA6 /* NNAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C3C1F22A75ACF005F5DA6 /* NNAlertView.h */,
+				AE0C3C2122A75ACF005F5DA6 /* NNAlertView.m */,
+				AE0C3C2022A75ACF005F5DA6 /* NNNormalAlertView.h */,
+				AE0C3C1E22A75ACF005F5DA6 /* NNNormalAlertView.m */,
+			);
+			path = NNAlertView;
+			sourceTree = "<group>";
+		};
+		AE0C3C2222A75ACF005F5DA6 /* NNLabelStyleLayout */ = {
+			isa = PBXGroup;
+			children = (
+				AE0C3C2422A75ACF005F5DA6 /* NNLabelStyleLayout.h */,
+				AE0C3C2322A75ACF005F5DA6 /* NNLabelStyleLayout.m */,
 			);
 			path = NNLabelStyleLayout;
 			sourceTree = "<group>";
 		};
-		AE176261228D414100D01C61 /* NNParallaxView */ = {
+		AE0C3C2522A75ACF005F5DA6 /* NNParallaxView */ = {
 			isa = PBXGroup;
 			children = (
-				AE176265228D415B00D01C61 /* NNParallaxView.h */,
-				AE176266228D415B00D01C61 /* NNParallaxView.m */,
+				AE0C3C2722A75ACF005F5DA6 /* NNParallaxView.h */,
+				AE0C3C2622A75ACF005F5DA6 /* NNParallaxView.m */,
 			);
 			path = NNParallaxView;
 			sourceTree = "<group>";
 		};
-		AE176268228D423800D01C61 /* NNNetwork */ = {
+		AE0C3C2822A75ACF005F5DA6 /* NNNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				AE17626A228D423800D01C61 /* NNNetworkRequest.h */,
-				AE17626E228D423800D01C61 /* NNNetworkRequest.m */,
-				AE17626C228D423800D01C61 /* NNNetworkResponse.h */,
-				AE176269228D423800D01C61 /* NNNetworkResponse.m */,
-				AE17626D228D423800D01C61 /* NNNetworkService.h */,
-				AE17626B228D423800D01C61 /* NNNetworkService.m */,
+				AE0C3C2A22A75ACF005F5DA6 /* NNNetworkRequest.h */,
+				AE0C3C2E22A75ACF005F5DA6 /* NNNetworkRequest.m */,
+				AE0C3C2C22A75ACF005F5DA6 /* NNNetworkResponse.h */,
+				AE0C3C2922A75ACF005F5DA6 /* NNNetworkResponse.m */,
+				AE0C3C2D22A75ACF005F5DA6 /* NNNetworkService.h */,
+				AE0C3C2B22A75ACF005F5DA6 /* NNNetworkService.m */,
 			);
 			path = NNNetwork;
-			sourceTree = "<group>";
-		};
-		AE176272228D457E00D01C61 /* NNCarousel */ = {
-			isa = PBXGroup;
-			children = (
-				AE176273228D45A200D01C61 /* NNCarousel.h */,
-				AE176274228D45A200D01C61 /* NNCarousel.m */,
-				AE176276228D45E500D01C61 /* NNCarouselLayout.h */,
-				AE176277228D45E500D01C61 /* NNCarouselLayout.m */,
-			);
-			path = NNCarousel;
 			sourceTree = "<group>";
 		};
 		AE481551228DAA780051F2BF /* Base */ = {
@@ -344,11 +445,11 @@
 		AEBDB547221548A400241E6C /* NNEasyKit */ = {
 			isa = PBXGroup;
 			children = (
+				AE0C3BED22A75ACF005F5DA6 /* NNEasyKit */,
 				AE0C3BB5228E977E005F5DA6 /* Resource */,
 				AE0C3BA0228E5DD9005F5DA6 /* Sections */,
 				AE481551228DAA780051F2BF /* Base */,
 				AEA57C22222E3ACC00F334B4 /* DelayOperation */,
-				AEBDB64622155E9200241E6C /* NNEasyKit */,
 				AEBDB548221548A400241E6C /* AppDelegate.h */,
 				AEBDB549221548A400241E6C /* AppDelegate.m */,
 				AEBDB54B221548A400241E6C /* ViewController.h */,
@@ -363,107 +464,6 @@
 				AE481558228DABC40051F2BF /* PrefixHeader.pch */,
 			);
 			path = NNEasyKit;
-			sourceTree = "<group>";
-		};
-		AEBDB64622155E9200241E6C /* NNEasyKit */ = {
-			isa = PBXGroup;
-			children = (
-				AE176268228D423800D01C61 /* NNNetwork */,
-				AEBDB64722155E9200241E6C /* NNComponent */,
-				AEBDB67422155E9200241E6C /* NNEasyKit.h */,
-				AEBDB65822155E9200241E6C /* NNExtension */,
-			);
-			path = NNEasyKit;
-			sourceTree = "<group>";
-		};
-		AEBDB64722155E9200241E6C /* NNComponent */ = {
-			isa = PBXGroup;
-			children = (
-				AE176272228D457E00D01C61 /* NNCarousel */,
-				AE176261228D414100D01C61 /* NNParallaxView */,
-				AE176253228D3EEB00D01C61 /* NNLabelStyleLayout */,
-				AEBDB65322155E9200241E6C /* NNAlertView */,
-				AEBDB64D22155E9200241E6C /* NNGCDTimer */,
-				AEBDB64822155E9200241E6C /* NNPFSLabel */,
-				AEBDB65022155E9200241E6C /* NNPinYin */,
-			);
-			path = NNComponent;
-			sourceTree = "<group>";
-		};
-		AEBDB64822155E9200241E6C /* NNPFSLabel */ = {
-			isa = PBXGroup;
-			children = (
-				AEBDB64922155E9200241E6C /* CADisplayLink+NNExtension.h */,
-				AEBDB64B22155E9200241E6C /* CADisplayLink+NNExtension.m */,
-				AEBDB64C22155E9200241E6C /* NNPFSLabel.h */,
-				AEBDB64A22155E9200241E6C /* NNPFSLabel.m */,
-			);
-			path = NNPFSLabel;
-			sourceTree = "<group>";
-		};
-		AEBDB64D22155E9200241E6C /* NNGCDTimer */ = {
-			isa = PBXGroup;
-			children = (
-				AEBDB64F22155E9200241E6C /* NNGCDTimer.h */,
-				AEBDB64E22155E9200241E6C /* NNGCDTimer.m */,
-			);
-			path = NNGCDTimer;
-			sourceTree = "<group>";
-		};
-		AEBDB65022155E9200241E6C /* NNPinYin */ = {
-			isa = PBXGroup;
-			children = (
-				AEBDB65122155E9200241E6C /* NNPinYin.h */,
-				AEBDB65222155E9200241E6C /* NNPinYin.m */,
-			);
-			path = NNPinYin;
-			sourceTree = "<group>";
-		};
-		AEBDB65322155E9200241E6C /* NNAlertView */ = {
-			isa = PBXGroup;
-			children = (
-				AEBDB65522155E9200241E6C /* NNAlertView.h */,
-				AEBDB65722155E9200241E6C /* NNAlertView.m */,
-				AEBDB65622155E9200241E6C /* NNNormalAlertView.h */,
-				AEBDB65422155E9200241E6C /* NNNormalAlertView.m */,
-			);
-			path = NNAlertView;
-			sourceTree = "<group>";
-		};
-		AEBDB65822155E9200241E6C /* NNExtension */ = {
-			isa = PBXGroup;
-			children = (
-				AEBDB65D22155E9200241E6C /* NNDefineMacro.h */,
-				AEBDB66822155E9200241E6C /* NNGlobalHelper.h */,
-				AEBDB65922155E9200241E6C /* NNGlobalHelper.m */,
-				AEBDB66A22155E9200241E6C /* NSObject+NNExtension.h */,
-				AEBDB65B22155E9200241E6C /* NSObject+NNExtension.m */,
-				AEBDB67322155E9200241E6C /* NSString+NNExtension.h */,
-				AEBDB66222155E9200241E6C /* NSString+NNExtension.m */,
-				AEBDB66022155E9200241E6C /* NSTimer+NNExtension.h */,
-				AEBDB66D22155E9200241E6C /* NSTimer+NNExtension.m */,
-				AEBDB66522155E9200241E6C /* UIAlertController+NNExtension.h */,
-				AEBDB67022155E9200241E6C /* UIAlertController+NNExtension.m */,
-				AE48154E228DA9A80051F2BF /* UIBarButtonItem+NNExtension.h */,
-				AE48154F228DA9A80051F2BF /* UIBarButtonItem+NNExtension.m */,
-				AEBDB67122155E9200241E6C /* UICollectionView+NNExtension.h */,
-				AEBDB66422155E9200241E6C /* UICollectionView+NNExtension.m */,
-				AEBDB65F22155E9200241E6C /* UIColor+NNExtension.h */,
-				AEBDB66E22155E9200241E6C /* UIColor+NNExtension.m */,
-				AEBDB66322155E9200241E6C /* UIControl+NNExtension.h */,
-				AEBDB67222155E9200241E6C /* UIControl+NNExtension.m */,
-				AEBDB66B22155E9200241E6C /* UIFont+NNExtension.h */,
-				AEBDB65C22155E9200241E6C /* UIFont+NNExtension.m */,
-				AEBDB65A22155E9200241E6C /* UIGestureRecognizer+NNExtension.h */,
-				AEBDB66722155E9200241E6C /* UIGestureRecognizer+NNExtension.m */,
-				AEBDB66122155E9200241E6C /* UIImage+NNExtension.h */,
-				AEBDB66C22155E9200241E6C /* UIImage+NNExtension.m */,
-				AEBDB66622155E9200241E6C /* UITableView+NNExtension.h */,
-				AEBDB66F22155E9200241E6C /* UITableView+NNExtension.m */,
-				AEBDB66922155E9200241E6C /* UIView+NNExtension.h */,
-				AEBDB65E22155E9200241E6C /* UIView+NNExtension.m */,
-			);
-			path = NNExtension;
 			sourceTree = "<group>";
 		};
 		B4C5E0B0B0F71394B8B01CAE /* Frameworks */ = {
@@ -633,44 +633,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBDB68422155E9200241E6C /* UIColor+NNExtension.m in Sources */,
-				AEBDB68522155E9200241E6C /* UITableView+NNExtension.m in Sources */,
-				AE176267228D415B00D01C61 /* NNParallaxView.m in Sources */,
+				AE0C3C3D22A75ACF005F5DA6 /* UIControl+NNExtension.m in Sources */,
 				AE481554228DAAAB0051F2BF /* NNNavigationController.m in Sources */,
-				AEBDB67522155E9200241E6C /* NNPFSLabel.m in Sources */,
-				AEBDB67F22155E9200241E6C /* NSString+NNExtension.m in Sources */,
 				AE0C3BAD228E633B005F5DA6 /* TestNNCarouselVC.m in Sources */,
-				AEBDB68022155E9200241E6C /* UICollectionView+NNExtension.m in Sources */,
-				AE17626F228D423800D01C61 /* NNNetworkResponse.m in Sources */,
-				AEBDB67622155E9200241E6C /* CADisplayLink+NNExtension.m in Sources */,
+				AE0C3C4322A75ACF005F5DA6 /* NNCarousel.m in Sources */,
+				AE0C3C4A22A75ACF005F5DA6 /* NNNetworkRequest.m in Sources */,
+				AE0C3C3622A75ACF005F5DA6 /* UICollectionView+NNExtension.m in Sources */,
+				AE0C3C4522A75ACF005F5DA6 /* NNAlertView.m in Sources */,
+				AE0C3C4722A75ACF005F5DA6 /* NNParallaxView.m in Sources */,
 				AEBDB54D221548A400241E6C /* ViewController.m in Sources */,
+				AE0C3C4222A75ACF005F5DA6 /* NNCarouselLayout.m in Sources */,
 				AE0C3BB0228E63F1005F5DA6 /* NNCarouselCell.m in Sources */,
+				AE0C3C3922A75ACF005F5DA6 /* NSTimer+NNExtension.m in Sources */,
+				AE0C3C4122A75ACF005F5DA6 /* NNPinYin.m in Sources */,
+				AE0C3C3B22A75ACF005F5DA6 /* UITableView+NNExtension.m in Sources */,
 				AE0C3BA9228E6059005F5DA6 /* TestNNAlertViewVC.m in Sources */,
+				AE0C3C4422A75ACF005F5DA6 /* NNNormalAlertView.m in Sources */,
+				AE0C3C4622A75ACF005F5DA6 /* NNLabelStyleLayout.m in Sources */,
 				AEBDB558221548A500241E6C /* main.m in Sources */,
-				AEBDB68222155E9200241E6C /* UIImage+NNExtension.m in Sources */,
-				AEBDB68622155E9200241E6C /* UIAlertController+NNExtension.m in Sources */,
-				AEBDB67D22155E9200241E6C /* UIFont+NNExtension.m in Sources */,
-				AEBDB68322155E9200241E6C /* NSTimer+NNExtension.m in Sources */,
-				AEBDB67E22155E9200241E6C /* UIView+NNExtension.m in Sources */,
-				AEBDB67A22155E9200241E6C /* NNAlertView.m in Sources */,
-				AEBDB67722155E9200241E6C /* NNGCDTimer.m in Sources */,
 				AE0C3BB3228E9652005F5DA6 /* TestNNParallaxVC.m in Sources */,
-				AE176256228D3EEB00D01C61 /* NNLabelStyleLayout.m in Sources */,
-				AEBDB67C22155E9200241E6C /* NSObject+NNExtension.m in Sources */,
-				AEBDB67822155E9200241E6C /* NNPinYin.m in Sources */,
-				AEBDB68722155E9200241E6C /* UIControl+NNExtension.m in Sources */,
-				AEBDB67922155E9200241E6C /* NNNormalAlertView.m in Sources */,
-				AEBDB67B22155E9200241E6C /* NNGlobalHelper.m in Sources */,
-				AE176278228D45E500D01C61 /* NNCarouselLayout.m in Sources */,
+				AE0C3C3322A75ACF005F5DA6 /* UIBarButtonItem+NNExtension.m in Sources */,
+				AE0C3C3E22A75ACF005F5DA6 /* NNPFSLabel.m in Sources */,
+				AE0C3C3422A75ACF005F5DA6 /* UIView+NNExtension.m in Sources */,
+				AE0C3C3522A75ACF005F5DA6 /* NSString+NNExtension.m in Sources */,
 				AE0C3BA6228E602F005F5DA6 /* CustomView.m in Sources */,
-				AE176270228D423800D01C61 /* NNNetworkService.m in Sources */,
+				AE0C3C4022A75ACF005F5DA6 /* NNGCDTimer.m in Sources */,
+				AE0C3C3222A75ACF005F5DA6 /* UIFont+NNExtension.m in Sources */,
 				AEA57C27222E3AE400F334B4 /* DelayOperationViewController.m in Sources */,
-				AE176271228D423800D01C61 /* NNNetworkRequest.m in Sources */,
+				AE0C3C3C22A75ACF005F5DA6 /* UIAlertController+NNExtension.m in Sources */,
+				AE0C3C3122A75ACF005F5DA6 /* NSObject+NNExtension.m in Sources */,
+				AE0C3C3822A75ACF005F5DA6 /* UIImage+NNExtension.m in Sources */,
+				AE0C3C4822A75ACF005F5DA6 /* NNNetworkResponse.m in Sources */,
+				AE0C3C3A22A75ACF005F5DA6 /* UIColor+NNExtension.m in Sources */,
 				AE0C3B9E228E4DC1005F5DA6 /* EntranceViewController.m in Sources */,
-				AE176275228D45A200D01C61 /* NNCarousel.m in Sources */,
+				AE0C3C3022A75ACF005F5DA6 /* NNGlobalHelper.m in Sources */,
+				AE0C3C3F22A75ACF005F5DA6 /* CADisplayLink+NNExtension.m in Sources */,
+				AE0C3C4922A75ACF005F5DA6 /* NNNetworkService.m in Sources */,
 				AEBDB54A221548A400241E6C /* AppDelegate.m in Sources */,
-				AE481550228DA9A90051F2BF /* UIBarButtonItem+NNExtension.m in Sources */,
-				AEBDB68122155E9200241E6C /* UIGestureRecognizer+NNExtension.m in Sources */,
+				AE0C3C3722A75ACF005F5DA6 /* UIGestureRecognizer+NNExtension.m in Sources */,
 				AE0C3BBD228E9E76005F5DA6 /* TestLayoutVC.m in Sources */,
 				AE481557228DAAE90051F2BF /* NNBaseViewController.m in Sources */,
 			);
